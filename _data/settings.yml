@@ -1,7 +1,7 @@
 #-------------------------------
 # Site Settings
 title: Hilton
-logo: # You can add own logo. For example '/images/logo.png'.
+logo: '/images/jtc_wht_circle.png'.
 description: Hilton is a super simple portfolio theme for Jekyll.
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
@@ -16,29 +16,22 @@ menu__settings:
       url: '/projects/'
     - title: 'Blog'
       url: '/blog/'
-    - title: 'Pages'
-      submenu:
-      - url: '/about/'
-        title: 'About'
-      - url: '/contact/'
-        title: 'Contact'
-      - url: '/elements/'
-        title: 'Elements'
-
+    - title: 'About'
+      url: '/about/'
+    - title: 'Contact'
+      url: '/contact/'
 
 #-------------------------------
 # Author Settings
 author:
-  author__name: Monica Hilton
-  author__bio: So, If you're looking for designs that have a high visual impact on your target audience, while also aligning with your brand, Let's talk about your project in more detail.
-  author__avatar: '/images/01-1.jpg'
+  author__name: Jason Carrasco
+  author__bio: I specialize in both visual design and coding, which allows me to tackle a wide range of projects with flexibility and creativity. I thrive on challenges that encourage learning, innovation, and the exploration of new tools and techniques to deliver exceptional results.
+  #author__avatar: '/images/01-1.jpg'
 
 social:
-- {icon: "fa-brands fa-x-twitter", link: "https://twitter.com"}
-- {icon: "fa-brands fa-square-facebook", link: "https://facebook.com"}
-- {icon: "fa-brands fa-instagram", link: "https://instagram.com"}
-- {icon: "fa-brands fa-pinterest", link: "https://pinterest.com"}
-- {icon: "fa-brands fa-github", link: "https://github.com"}
+- {icon: "fa-brands fa-linkedin", link: "https://www.linkedin.com/in/jtcarrasco/"}
+- {icon: "fa-brands fa-instagram", link: "https://www.instagram.com/jtcarrasco/"}
+- {icon: "fa-brands fa-github", link: "https://github.com/jtcarrasco"}
 
 # Example of adding a new link to the footer - {icon: "fa-brands fa-dribbble", link: "https://dribbble.com"}
 # Other icons can be found at https://fontawesome.com/icons
@@ -47,9 +40,9 @@ social:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: I'm Monica. I will create design that can give you value
-  hero__description: So, If you're looking for designs that have a high visual impact on your target audience, while also aligning with your brand, Let's talk about your project in more detail.
-  hero__image: '/images/01.jpg'
+  hero__title: I'm Jason.
+  hero__description: I specialize in both visual design and coding, which allows me to tackle a wide range of projects with flexibility and creativity. I thrive on challenges that encourage learning, innovation, and the exploration of new tools and techniques to deliver exceptional results.
+  #hero__image: '/images/01.jpg'
 
 
 #-------------------------------
@@ -139,14 +132,12 @@ footer_menu__settings:
       title: 'About'
     - url: '/contact/'
       title: 'Contact'
-    - url: '/elements/'
-      title: 'Elements'
 
 
 #-------------------------------
 # Contact Settings
 contact:
-  form_id: your@email.com # Add your form_id
+  form_id: info@jtcarrasco.com # Add your form_id
   description: Hilton comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want. # Add a description of your form
 
 # NOTE
