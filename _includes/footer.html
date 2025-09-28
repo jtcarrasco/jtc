@@ -1,7 +1,7 @@
 <!-- begin footer -->
 <footer class="footer">
 
-  <div class="footer__gallery">
+  <!-- <div class="footer__gallery">
     {% if site.data.settings.gallery %}
     <div class="gallery">
       {% for image in site.data.settings.gallery.gallery__images %}
@@ -11,9 +11,9 @@
       {% endfor %}
     </div>
     {% endif %}
-  </div>
+  </div> -->
 
-  <div class="container">
+  <!-- <div class="container">
     <div class="row">
       <div class="col-12">
 
@@ -47,7 +47,7 @@
 
               <div class="col col-4 col-d-12">
                 <div class="footer__nav">
-                  <h3 class="footer__nav-title">Navigation</h3>
+                  <h3 class="footer__nav-title">Links</h3>
                   <ul class="footer__nav-list list-reset">
                     {% for item in site.data.settings.footer_menu__settings.menu__items %}
                     <li class="footer__nav-item">
@@ -64,15 +64,27 @@
 
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div class="container">
     <div class="row">
       <div class="col col-12">
         <div class="footer__info">
           <div class="footer__info-box">
-            <div class="copyright">{{site.time | date: '%Y'}} &copy; <a href="/">{{site.data.settings.title}}</a>. Crafted & Designed by <a href="https://jekyllthemes.io/developers/artem-sheludko">Artem Sheludko</a>.</div>
-            <div class="top" title="Top"><i class="fa-solid fa-chevron-up"></i></div>
+            <div class="social">
+              <ul class="social__list list-reset">
+                {% for social in site.data.settings.social %}
+                <li class="social__item">
+                  <a class="social__link" href="{{social.link}}" target="_blank" rel="noopener"
+                    aria-label="Social link"><i class="ion {{social.icon}}"></i></a>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+            <div class="footer__bottom">
+              <div class="copyright">{{site.time | date: '%Y'}} &copy; Jason Carrasco</div>
+              <div class="top" title="Top"><i class="fa-solid fa-chevron-up"></i></div>
+            </div>
           </div>
         </div>
       </div>
