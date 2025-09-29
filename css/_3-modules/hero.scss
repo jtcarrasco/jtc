@@ -72,9 +72,9 @@
   //max-width: 575px;
   margin-left: auto;
 
-  @media only screen and (max-width: $wide) {
-    max-width: 440px;
-  }
+  // @media only screen and (max-width: $wide) {
+  //   max-width: 440px;
+  // }
 
   @media only screen and (max-width: $desktop) {
     order: -1;

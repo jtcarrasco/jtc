@@ -1,2 +1,0 @@
-# jtc
-main site
