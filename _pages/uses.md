@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: uses
+permalink: /uses/
 image: '/images/profile/jtc_profile_pic.jpg'
 ---
 

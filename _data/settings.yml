@@ -66,9 +66,15 @@ testimonial__title: Recommendations
 testimonial__description:
 
 testimonial__items:
+  - name: "Yvonne Li"
+    image: "/images/clients/yvonne_li.jpg"
+    designation: "Content Marketing Supervisor"
+    link: "https://www.linkedin.com/in/loveliyvonne/"
+    content : "Jason is a proactive problem-solver who looks for ways to improve efficiency and long-term content management. He streamlined the nearly 50 websites our team managed, while also creating processes that made site updates easier to navigate. As a web developer, Jason focuses on ensuring everything functions as it should, with accessibility and user experience always in mind. He approaches projects with a solution-oriented mindset and consistently finds ways to make systems run more efficiently. His technical expertise and focus on functionality make him a reliable contributor to any web development team."
+    
   - name: "Kristi Marquez"
     image: "/images/clients/kristi.jpg"
-    designation: "Business Owner"
+    designation: "Business Owner | DAS Beergarden"
     link: "https://www.linkedin.com/in/kristimarquez/"
     content : "I don't think I've ever been able to call a website redesign easy before working with Jason. He recently overhauled my company's site and the process was seamless. He listened to our goals and implemented every one of them on the first attempt, noticed potential roadblocks, and made suggestions around additional elements, plugins and SEO that have already proven their worth. His work was super fast and on-brand, which was exactly what we needed. I highly recommend Jason if you are looking for a web developer who can exceed your expectations."
 
