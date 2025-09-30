@@ -272,4 +272,11 @@ table td {
   background-color: var(--background-color) !important;
 }
 
-.center { margin: 0 auto;}
+.center { 
+  margin: 0 auto;
+  max-width: 60%;
+
+  @media only screen and (max-width: $mobile) {
+    max-width: 100%;
+  }
+}
