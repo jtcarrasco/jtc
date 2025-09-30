@@ -1,7 +1,7 @@
 #-------------------------------
 # Site Settings
 title: Jtcarrasco
-logo: '/images/jtc_wht_circle.png'
+logo: '/images/logo_header.png'
 description: Jtcarrasco | Web Developer + Designer + Pet Wrangler.
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
@@ -30,9 +30,8 @@ author:
 
 social:
 - {icon: "fa-brands fa-linkedin", link: "https://www.linkedin.com/in/jtcarrasco/"}
-- {icon: "fa-brands fa-instagram", link: "https://www.instagram.com/jtcarrasco/"}
 - {icon: "fa-brands fa-github", link: "https://github.com/jtcarrasco"}
-
+- {icon: "fa-solid fa-file-pdf", link: "/assets/Jtcarrasco_resume.pdf"}
 # Example of adding a new link to the footer - {icon: "fa-brands fa-dribbble", link: "https://dribbble.com"}
 # Other icons can be found at https://fontawesome.com/icons
 
@@ -67,43 +66,43 @@ testimonial__description:
 
 testimonial__items:
   - name: "Yvonne Li"
-    image: "/images/clients/yvonne_li.jpg"
+    image: "/assets/clients/yvonne_li.jpg"
     designation: "Content Marketing Supervisor"
     link: "https://www.linkedin.com/in/loveliyvonne/"
     content : "Jason is a proactive problem-solver who looks for ways to improve efficiency and long-term content management. He streamlined the nearly 50 websites our team managed, while also creating processes that made site updates easier to navigate. As a web developer, Jason focuses on ensuring everything functions as it should, with accessibility and user experience always in mind. He approaches projects with a solution-oriented mindset and consistently finds ways to make systems run more efficiently. His technical expertise and focus on functionality make him a reliable contributor to any web development team."
     
   - name: "Kristi Marquez"
-    image: "/images/clients/kristi.jpg"
+    image: "/assets/clients/kristi.jpg"
     designation: "Business Owner | DAS Beergarden"
     link: "https://www.linkedin.com/in/kristimarquez/"
     content : "I don't think I've ever been able to call a website redesign easy before working with Jason. He recently overhauled my company's site and the process was seamless. He listened to our goals and implemented every one of them on the first attempt, noticed potential roadblocks, and made suggestions around additional elements, plugins and SEO that have already proven their worth. His work was super fast and on-brand, which was exactly what we needed. I highly recommend Jason if you are looking for a web developer who can exceed your expectations."
 
   - name: "Yvonne Miller"
-    image: "/images/clients/yvonne.jpg"
+    image: "/assets/clients/yvonne.jpg"
     designation: "Executive Vice President, Client Services | Edlio.com"
     link: "https://www.linkedin.com/in/yvonne-miller-a0639119/"
     content : "I can enthusiastically recommend Jason! He is conscientious and hardworking, always committed to solving problems creatively and working as an equal collaborator. He was always willing to jump into new projects whether they were part of his job description or not. He is committed to professional development and always learning. He would be a stellar addition to any team!"
 
   - name: "Anni Baghdasarian"
-    image: "/images/clients/anni.jpg"
+    image: "/assets/clients/anni.jpg"
     designation: "President | Edlio.com"
     link: "https://www.linkedin.com/in/anni-baghdasarian-90905757/"
     content : "Jason is an incredible asset to any team he's on. He's willing to take on any task thrown his way and is an absolute team player. He's a fast learner, deadline driven, detail oriented and always gets his work done with a smile. I would highly recommend him to any future employer."
 
   - name: "Miguel Lee"
-    image: "/images/clients/miguel.jpg"
+    image: "/assets/clients/miguel.jpg"
     designation: "Creative Director"
     link: "https://www.linkedin.com/in/miguellee/"
     content : "Jason is extremely resourceful and has an excellent attitude/approach to his work. He played a major role in assisting us on several projects in both production and IT capacities."
 
   - name: "Susan Thurmond O'Neal"
-    image: "/images/clients/susan.jpg"
+    image: "/assets/clients/susan.jpg"
     designation: "Operations Director"
     link: "https://www.linkedin.com/in/susantoneal/"
     content : "I miss working with Jason! He tackles every project with relentless good humor and innovation. Jason has skills that translate to many different aspects of Creative Enterprise. He will be a success wherever he goes."
 
   - name: "Dom Davenport"
-    image: "/images/clients/dom.jpg"
+    image: "/assets/clients/dom.jpg"
     designation: "Founder & CEO Escape Studios"
     link: "https://www.linkedin.com/in/dom-davenport-7b9500a/"
     content : "Jason throws himself in to whatever task he's given and always delivers with aplomb. I would wholeheartedly recommend him to any future employer."
@@ -121,13 +120,13 @@ blog__settings:
 gallery:
   gallery__images:
     - alt: 'Rest'
-      url: '/images/gallery-1.jpg'
+      url: '/assets/gallery-1.jpg'
     - alt: 'Lifestyle'
-      url: '/images/gallery-2.jpg'
+      url: '/assets/gallery-2.jpg'
     - alt: 'Hobby'
-      url: '/images/gallery-3.jpg'
+      url: '/assets/gallery-3.jpg'
     - alt: 'Notes'
-      url: '/images/gallery-4.jpg'
+      url: '/assets/gallery-4.jpg'
 
 
 #-------------------------------

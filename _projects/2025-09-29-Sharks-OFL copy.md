@@ -2,7 +2,7 @@
 title: Opportunties for Learning - SCV Sharks
 date: 2025-09-29 12:00:00 +0300
 subtitle: Web Design and Development
-image: '/images/projects/sharks-homepage.png'
+image: '/assets/projects/sharks-homepage.png'
 ---
 
 This large-scale initiative involved the strategic design and development of 12 websites serving the various regional divisions of the Options for Youth (OFY) and Opportunities for Learning (OFL) charter school networks.

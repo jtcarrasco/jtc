@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-image: '/images/profile/jtc_profile_pic.jpg'
+image: '/assets/profile/jtc_profile_pic.jpg'
 ---
 
 ## Hi, I'm jason
@@ -24,3 +24,4 @@ In my free time I’m an [avid music collector](https://www.discogs.com/user/jtc
 Feel free to [drop me a line](/contact)
 <hr/>
 
+[Resume](/assets/Jtcarrasco_resume.pdf)
