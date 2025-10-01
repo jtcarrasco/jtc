@@ -1,8 +1,8 @@
 ---
-title: Regional Websites for OFY and OFL
+title: Pathways in Education
 date: 2025-09-29 12:00:00 +0300
 subtitle: Web Design and Development
-image: '/assets/projects/sharks-homepage.webp'
+image: '/assets/projects/PIE-1.webp'
 ---
 
 ## Scope
@@ -14,9 +14,9 @@ The result was a cohesive digital experience that puts students first, making it
 
 <div class="gallery-box">
   <div class="gallery">
-    <img src="/assets/projects/regional-1.webp" loading="lazy" alt="Project">
-    <img src="/assets/projects/regional-2.webp" loading="lazy" alt="Project">
-    <img src="/assets/projects/regional-3.webp" loading="lazy" alt="Project">
+    <img src="/assets/projects/PIE-1.webp" loading="lazy" alt="Project">
+    <img src="/assets/projects/PIE-2.webp" loading="lazy" alt="Project">
+    <img src="/assets/projects/PIE-3.webp" loading="lazy" alt="Project">
   </div>
 </div>
 
@@ -27,8 +27,8 @@ This cross-functional partnership ensured that the platform served both marketin
 
 <div class="gallery-box">
   <div class="gallery">
-    <img src="/assets/projects/regional-4.webp" loading="lazy" alt="Project">
-    <img src="/assets/projects/regional-5.webp" loading="lazy" alt="Project">
+    <img src="/assets/projects/PIE-4.webp" loading="lazy" alt="Project">
+    <img src="/assets/projects/PIE-5.webp" loading="lazy" alt="Project">
   </div>
 </div>
 

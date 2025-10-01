@@ -1,8 +1,8 @@
 ---
-title: Regional Websites for OFY and OFL
+title: Equity Summit Website
 date: 2025-09-29 12:00:00 +0300
 subtitle: Web Design and Development
-image: '/assets/projects/sharks-homepage.webp'
+image: '/assets/projects/equity-4.webp'
 ---
 
 ## Scope
@@ -14,9 +14,9 @@ The result was a cohesive digital experience that puts students first, making it
 
 <div class="gallery-box">
   <div class="gallery">
-    <img src="/assets/projects/regional-1.webp" loading="lazy" alt="Project">
-    <img src="/assets/projects/regional-2.webp" loading="lazy" alt="Project">
-    <img src="/assets/projects/regional-3.webp" loading="lazy" alt="Project">
+    <img src="/assets/projects/equity-1.webp" loading="lazy" alt="Project">
+    <img src="/assets/projects/equity-2.webp" loading="lazy" alt="Project">
+    <img src="/assets/projects/equity-3.webp" loading="lazy" alt="Project">
   </div>
 </div>
 
@@ -24,13 +24,6 @@ The result was a cohesive digital experience that puts students first, making it
 
 The project required close collaboration with school principals and administrators to gather and curate site-specific content tailored to each regional campus. Working alongside the Skyrocket Marketing team and Propel enrollment department, we designed a user experience that seamlessly connected prospective students with relevant regional information while establishing clear, intuitive pathways to enrollment.
 This cross-functional partnership ensured that the platform served both marketing objectives and enrollment goals, creating a streamlined journey from initial interest to program registration.
-
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="/assets/projects/regional-4.webp" loading="lazy" alt="Project">
-    <img src="/assets/projects/regional-5.webp" loading="lazy" alt="Project">
-  </div>
-</div>
 
 ### The OFY & OFL Regional Websites
 

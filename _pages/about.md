@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-image: '/assets/profile/jtc_profile_pic.jpg'
+image: '/assets/profile/jtc_profile_pic.webp'
 ---
 
 ## Hi, I'm jason
