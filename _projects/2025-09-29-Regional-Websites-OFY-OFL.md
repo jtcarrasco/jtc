@@ -34,8 +34,6 @@ This cross-functional partnership ensured that the platform served both marketin
 
 ### The OFY & OFL Regional Websites
 
-<a href=""></a>
-
 <div class="table-container">
   <table>
     <tr><th>Options for Youth</th><th>Opportunities for Learning</th></tr>

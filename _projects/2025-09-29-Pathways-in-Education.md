@@ -6,11 +6,8 @@ image: '/assets/projects/PIE-1.webp'
 ---
 
 ## Scope
-Options for Youth (OFY) and Opportunities for Learning (OFL) required a strategic shift in their digital presence. Unlike traditional charter school websites that prioritize board agendas and state compliance documentation, both organizations needed student-focused platforms designed to showcase their programs and drive enrollment.
+Pathways in Education required a comprehensive digital transformation for their schools spanning the country from Idaho to Louisiana. The challenge was to balance multiple critical objectives: creating user-friendly websites that maintained compliance with district and state documentation requirements while establishing a cohesive brand identity across all regions. 
 
-In collaboration with the brand content marketing specialist, we developed a comprehensive site template and unified messaging framework. This scalable solution was designed to maintain brand consistency while accommodating the unique needs of various regional campuses across both the OFY and OFL networks.
-
-The result was a cohesive digital experience that puts students first, making it easier for prospective families to understand program offerings and take the next steps toward enrollment.
 
 <div class="gallery-box">
   <div class="gallery">
@@ -20,10 +17,13 @@ The result was a cohesive digital experience that puts students first, making it
   </div>
 </div>
 
-### Collaborative Approach and User Experience
+### Strategic Approach
+Our design strategy focused on achieving three key goals:
 
-The project required close collaboration with school principals and administrators to gather and curate site-specific content tailored to each regional campus. Working alongside the Skyrocket Marketing team and Propel enrollment department, we designed a user experience that seamlessly connected prospective students with relevant regional information while establishing clear, intuitive pathways to enrollment.
-This cross-functional partnership ensured that the platform served both marketing objectives and enrollment goals, creating a streamlined journey from initial interest to program registration.
+- **Enhanced User Experience** — We prioritized intuitive navigation and accessibility, ensuring that students, families, and stakeholders could easily find essential information while the sites continued to meet rigorous accountability standards.
+- **Regional Customization with Brand Unity** — Each regional site was tailored to reflect its local community and specific needs, while maintaining consistent brand elements that reinforced Pathways in Education's national identity and values.
+- **Streamlined Enrollment Process** — We redesigned the enrollment experience to remove friction points and simplify the application journey, making it easier for prospective students to take action and complete their registration.
+The result was a scalable digital ecosystem that serves diverse communities across the country while maintaining a unified brand presence and driving meaningful enrollment engagement.
 
 <div class="gallery-box">
   <div class="gallery">
@@ -34,22 +34,13 @@ This cross-functional partnership ensured that the platform served both marketin
 
 ### The OFY & OFL Regional Websites
 
-<a href=""></a>
-
 <div class="table-container">
   <table>
-    <tr><th>Options for Youth</th><th>Opportunities for Learning</th></tr>
-    <tr><td><a href="https://bobcats.ofy.org">Bobcats San Fernando Valley</a></td><td><a ref="https://eagles.oflschools.org">Eagles San Juan Capistrano</a></td></tr>
-    <tr><td><a href="https://buffalos.ofy.org">Buffalos High Desert</a></td><td><a href="https://lions.oflschools.org">Lions San Gabriel</a></td></tr>
-    <tr><td><a href="https://eagles.ofy.org">Eagles Long Beach</a></td><td><a href="https://panthers.oflschools.org">OFL Online</a></td></tr>
-    <tr><td><a href="https://jaguars.ofy.org">LA Jaguars</a></td><td><a href="https://roadrunners.oflschools.org">Roadrunners Ridgecrest</a></td></tr>
-    <tr><td><a href="https://lions.ofy.org">Lions San Gabriel</a></td><td><a href="https://sharks.oflschools.org">Sharks Santa Clarita Valley</a></td></tr>
-    <tr><td><a href="https://mustangs.ofy.org">Mustangs Victor Valley</a></td><td></td></tr>
-    <tr><td><a href="https://owls.ofy.org">Owls San Juan</a></td><td></td></tr>
-    <tr><td><a href="https://panthers.ofy.org">Online Program</a></td><td></td></tr>
-    <tr><td><a href="https://phoenix.ofy.org">LA Phoenix</a></td><td></td></tr>
-    <tr><td><a href="https://sgvlions.ofy.org">Lions San Gabriel Valley</a></td><td></td></tr>
-    <tr><td><a href="https://saints.ofy.org">Saints San Bernardino</a></td><td></td></tr>
-    <tr><td><a href="https://wolfpack.ofy.org/">Wolfpack Inland Empire</a></td><td></td></tr>
+    <tr><th>Options for Youth</th></tr>
+    <tr><td><a href="https://az.pathwaysineducation.org">Arizona School</a></td></tr>
+    <tr><td><a href="https://id.pathwaysineducation.org">Idaho, Nampa School</a></td></tr>
+    <tr><td><a href="https://id-w.pathwaysineducation.org">Idaho, West Ada School</a></td></tr>
+    <tr><td><a href="https://la.pathwaysineducation.org">Louisiana School</a></td></tr>
+    <tr><td><a href="https://il.pathwaysineducation.org">Illinois School</a></td></tr>
   </table>
 </div>

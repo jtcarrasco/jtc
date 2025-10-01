@@ -148,12 +148,8 @@ footer_menu__settings:
 #-------------------------------
 # Contact Settings
 contact:
-  form_id: info@jtcarrasco.com # Add your form_id
-  description: # Add a description of your form
-
-# NOTE
-# Hilton theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
-
+  form_id: mzzjgdkk
+  description: Hit me up for projects, coffee dates, or dog walks. I'm excellent at at least two of these things.
 
 #-------------------------------
 # Comment Section (Disqus)
@@ -162,4 +158,4 @@ disqus-identifier: anvodstudio-demo # Add your shortname for Disqus Comment. For
 
 #-------------------------------
 # Google Analytics
-google-analytics: # Add your GA Tracking Id
+google-analytics: G-33X0EVPJ87 
