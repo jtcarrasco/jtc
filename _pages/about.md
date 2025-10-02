@@ -19,7 +19,7 @@ My experience includes building robust tools for sales and admissions department
 
 ## Things I love
 
-In my free time I’m an [avid music collector](https://www.discogs.com/user/jtcarrasco), dog walker and cat wrangler. I enjoy science fiction books, cooking and family bike rides.
+In my free time I’m an [avid music collector](https://www.discogs.com/user/jtcarrasco), dog walker and cat wrangler. I enjoy science fiction books, traveling, cooking and family bike rides.
 
 Feel free to [drop me a line](/contact)
 <hr/>
