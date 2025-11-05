@@ -13,7 +13,7 @@ Outside of work, I live in Redondo Beach, California, with my wife Margot, daugh
 
 ## What I've done
 
-Over the course of my career,  I've had the opportunity to work on more than 350 website projects, with educational institutions serving as my primary area of expertise. I understand the unique challenges schools and districts face in the digital space, and I've developed targeted solutions to address them.
+Over the course of my career, I've had the opportunity to work on more than 350 website projects, with educational institutions serving as my primary area of expertise. I understand the unique challenges schools and districts face in the digital space, and I've developed targeted solutions to address them.
 
 My experience includes building robust tools for sales and admissions departments, designing user-friendly enrollment portals, and creating digital experiences that simplify complex processes. Whether it's helping prospective students navigate the enrollment journey or empowering staff with efficient administrative tools, my focus is always on creating solutions that are both functional and intuitive.
 
