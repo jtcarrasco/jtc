@@ -24,4 +24,4 @@ In my free time I’m an [avid music collector](https://www.discogs.com/user/jtc
 Feel free to [drop me a line](/contact)
 <hr/>
 
-Hey you, you need a [Resume](assets/Jason_Carrasco_Resume.pdf)? Here you go!
+Hey you, you need a [Resume](/assets/Jason_Carrasco_Resume.pdf)? Here you go!
