@@ -5,11 +5,11 @@ permalink: /about/
 image: '/assets/profile/jtc_profile_pic.webp'
 ---
 
-## Hi, I'm jason
+## Why, Hello there
 
 Thank you for visiting my website, I'm a Los Angeles-based web developer and designer with more than 15 years of experience creating custom digital solutions. Throughout my career, I've partnered with clients ranging from small businesses to large school districts, delivering web projects that combine functionality with user-focused design.
 
-Outside of work, I live in Redondo Beach, California, with my wife Margot, daughter Petra, and our cat Lola and dog Angel.
+Outside of work, I live in Redondo Beach, California, with my wife Margot, daughter Petra, and our furbabies Lola😺 and Angel🐶.
 
 ## What I've done
 
@@ -24,4 +24,4 @@ In my free time I’m an [avid music collector](https://www.discogs.com/user/jtc
 Feel free to [drop me a line](/contact)
 <hr/>
 
-Hey you, you need a [Resume](/assets/Jason_Carrasco_Resume.pdf)? Here you go!
+Hey you, you need a copy of my fancy [Resume](/assets/Jason_Carrasco_Resume.pdf)? Here you go!

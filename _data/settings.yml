@@ -39,7 +39,7 @@ social:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__title: I'm Jason.
+  hero__title: Hi, I'm Jason.
   hero__description: I specialize in both visual design and development, bridging the gap between concept and execution. This dual expertise allows me to design intuitive interfaces and build them to spec, eliminating the translation issues that typically arise between separate design and development teams. I thrive on challenges that push me into unfamiliar territory, whether that means exploring emerging frameworks, mastering new tools, or solving problems that start with "Is this even possible?" Continuous learning isn't just part of the job—it's what keeps me engaged.
   #hero__image: '/images/01.jpg'
 
