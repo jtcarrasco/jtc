@@ -7,7 +7,7 @@ image: '/assets/profile/jtc_profile_pic.webp'
 
 ## Why, Hello there
 
-Thank you for visiting my cool website, I'm a Los Angeles-based web developer and designer with more than 15 years of experience creating custom digital solutions. Throughout my career, I've partnered with clients ranging from small businesses to large school districts, delivering web projects that combine functionality with user-focused design.
+Thank you for visiting my website, I'm a Los Angeles-based web developer and designer with more than 15 years of experience creating custom digital solutions. Throughout my career, I've partnered with clients ranging from small businesses to large school districts, delivering web projects that combine functionality with user-focused design.
 
 Outside of work, I live in Redondo Beach, California, with my wife Margot, daughter Petra, and our furbabies Lola😺 and Angel🐶.
 
