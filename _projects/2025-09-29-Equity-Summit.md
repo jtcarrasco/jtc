@@ -6,7 +6,7 @@ image: '/assets/projects/equity-1.webp'
 ---
 
 ## Scope
-Equity Summit is is an annual online conference that brings together educators, administrators, and advocates dedicated to advancing equity in education. Each year, the summit adopts a unifying theme that guides speaker presentations and conference programming. For 2025, the theme "Generations Connected" explores the intersections of intergenerational dialogue and educational equity.
+Equity Summit is an annual online conference that brings together educators, administrators, and advocates dedicated to advancing equity in education. Each year, the summit adopts a unifying theme that guides speaker presentations and conference programming. For 2025, the theme "Generations Connected" explores the intersections of intergenerational dialogue and educational equity.
 
 <div class="gallery-box">
   <div class="gallery">
