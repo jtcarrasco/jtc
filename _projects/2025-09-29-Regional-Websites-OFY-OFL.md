@@ -12,24 +12,9 @@ Options for Youth (OFY) and Opportunities for Learning (OFL) are tuition-free pu
 ### Role & Approach
 At Skyrocket Education, I led the web development and production coordination for over 17 regional campus websites across both the OFY and OFL networks. In collaboration with the brand content marketing specialist, I developed a comprehensive site template and unified messaging framework — a scalable solution designed to maintain brand consistency while accommodating the unique needs of each regional campus.
 
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="/assets/projects/regional-1.webp" loading="lazy" alt="Project">
-    <img src="/assets/projects/regional-2.webp" loading="lazy" alt="Project">
-    <img src="/assets/projects/regional-3.webp" loading="lazy" alt="Project">
-  </div>
-</div>
-
 The project required close collaboration with school principals and administrators to gather and curate site-specific content tailored to each regional campus. Working alongside the Skyrocket Marketing team and Propel enrollment department, I designed a user experience that seamlessly connected prospective students with relevant regional information while establishing clear, intuitive pathways to enrollment.
 
 This cross-functional partnership ensured that the platform served both marketing objectives and enrollment goals, creating a streamlined journey from initial interest to program registration. This work built on my earlier development of the [OFY](/project/ofy) and [OFL](/project/ofl-schools) websites during my time at Edlio.
-
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="/assets/projects/regional-4.webp" loading="lazy" alt="Project">
-    <img src="/assets/projects/regional-5.webp" loading="lazy" alt="Project">
-  </div>
-</div>
 
 ### The OFY & OFL Regional Websites
 
