@@ -2,7 +2,7 @@
 title: North Bergen School District
 date: 2022-03-01 12:00:00 +0300
 subtitle: Web Development & Project Coordination
-image: '/assets/projects/north-bergen-sd.png'
+image: '/assets/projects/north-bergen-sd.webp'
 category: past
 ---
 

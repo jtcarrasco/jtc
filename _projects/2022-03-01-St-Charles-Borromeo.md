@@ -2,7 +2,7 @@
 title: St. Charles Borromeo Parish School
 date: 2022-03-01 12:00:00 +0300
 subtitle: Web Development & Project Coordination
-image: '/assets/projects/st-charles-borromeo.png'
+image: '/assets/projects/st-charles-borromeo.webp'
 category: past
 ---
 

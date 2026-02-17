@@ -2,7 +2,7 @@
 title: El Rancho Unified School District
 date: 2022-03-01 12:00:00 +0300
 subtitle: Web Development & Project Coordination
-image: '/assets/projects/el-rancho-usd.png'
+image: '/assets/projects/el-rancho-usd.webp'
 category: past
 ---
 

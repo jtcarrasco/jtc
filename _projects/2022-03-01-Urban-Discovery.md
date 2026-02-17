@@ -2,7 +2,7 @@
 title: Urban Discovery Schools
 date: 2022-03-01 12:00:00 +0300
 subtitle: Web Development & Project Coordination
-image: '/assets/projects/urban-discovery.png'
+image: '/assets/projects/urban-discovery.webp'
 category: past
 ---
 

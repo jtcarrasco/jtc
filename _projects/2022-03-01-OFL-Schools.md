@@ -2,7 +2,7 @@
 title: Opportunities For Learning
 date: 2022-03-01 12:00:00 +0300
 subtitle: Web Development & Production Coordination
-image: '/assets/projects/ofl-schools.png'
+image: '/assets/projects/ofl-schools.webp'
 category: past
 ---
 

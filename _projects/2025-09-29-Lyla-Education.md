@@ -2,7 +2,7 @@
 title: Lyla Education
 date: 2025-09-29 12:00:00 +0300
 subtitle: Web Design and Development
-image: '/assets/projects/lyla-education.png'
+image: '/assets/projects/lyla-education.webp'
 category: current
 ---
 

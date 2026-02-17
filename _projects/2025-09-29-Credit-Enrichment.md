@@ -2,7 +2,7 @@
 title: Credit Enrichment
 date: 2025-09-29 12:00:00 +0300
 subtitle: Web Design and Development
-image: '/assets/projects/credit-enrichment.png'
+image: '/assets/projects/credit-enrichment.webp'
 category: current
 ---
 
