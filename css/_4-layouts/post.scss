@@ -136,12 +136,16 @@
 
   a {
     font-weight: 500;
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 1px solid black;
 
     &:hover {
       color: var(--link-color);
       border-bottom-color: var(--link-color-hover);
     }
+  }
+
+  :root[dark] & a {
+    border-bottom-color: var(--white);
   }
 
   img, .js-reframe {
