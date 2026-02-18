@@ -12,12 +12,18 @@ description:
       <p class="page-description">{{ site.data.settings.projects__settings.projects__description }}</p>
     {% endif %}
   </div>
+
+  <div class="project-filters">
+    <button class="project-filter active" data-filter="all">All</button>
+    <button class="project-filter" data-filter="current">Current</button>
+    <button class="project-filter" data-filter="past">Past</button>
+  </div>
 </div>
 
 <div class="projects-page container animate">
   <div class="row">
     {% for project in site.projects reversed %}
-      <article class="project col col-4 col-d-6 col-t-12">
+      <article class="project col col-4 col-d-6 col-t-12" data-category="{{ project.category }}">
         <div class="project__content">
           <a href="{{ project.url }}" class="project__image">
             <img class="lazy" data-src="{{ project.image }}" alt="{{ project.title }}">
@@ -33,3 +39,33 @@ description:
     {% endfor %}
   </div>
 </div>
+
+<script>
+(function() {
+  var filters = document.querySelectorAll('.project-filter');
+  var projects = document.querySelectorAll('.projects-page .project');
+
+  filters.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      filters.forEach(function(b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      var filter = btn.getAttribute('data-filter');
+
+      projects.forEach(function(project) {
+        if (filter === 'all' || project.getAttribute('data-category') === filter) {
+          project.style.display = '';
+        } else {
+          project.style.display = 'none';
+        }
+      });
+    });
+  });
+
+  // Check URL hash for pre-selected filter
+  var hash = window.location.hash.replace('#', '');
+  if (hash === 'current' || hash === 'past') {
+    var target = document.querySelector('.project-filter[data-filter="' + hash + '"]');
+    if (target) target.click();
+  }
+})();
+</script>

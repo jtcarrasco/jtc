@@ -1,3 +1,35 @@
+/* Project Filters */
+.project-filters {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 40px;
+}
+
+.project-filter {
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: transparent;
+  border: 2px solid var(--background-alt-color);
+  border-radius: 4px;
+  color: var(--text-color);
+  cursor: pointer;
+  transition: $global-transition;
+
+  &:hover {
+    border-color: var(--brand-color);
+  }
+
+  &.active {
+    background-color: var(--brand-color);
+    border-color: var(--brand-color);
+    color: var(--dark);
+  }
+}
+
 /* Projects */
 .projects-page {
   margin-bottom: 68px;

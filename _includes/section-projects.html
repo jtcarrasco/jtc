@@ -14,7 +14,8 @@
 
           <div class="row">
             {% assign sorted = site.projects | sort: 'date' | reverse %}
-            {% for project in sorted limit:6 %}
+            {% for project in sorted %}
+            {% if project.category == "current" %}
             <article class="project col col-4 col-d-6 col-t-12">
               <div class="project__content">
                 <a href="{{ project.url }}" class="project__image">
@@ -28,6 +29,7 @@
                 </div>
               </div>
             </article>
+            {% endif %}
             {% endfor %}
           </div>
 
