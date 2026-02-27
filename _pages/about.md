@@ -29,7 +29,7 @@ Feel free to [drop me a line](/contact)
 
 ## Things I Hate
 
-Facists, and the movie Prometheus. 
+Facists, yogurt, and the movie [Prometheus](https://youtu.be/-BWnTW4rL0U?si=Jasbikxu89nmWFOE). 
 
 ---
 

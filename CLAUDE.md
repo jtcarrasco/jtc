@@ -13,7 +13,7 @@ Personal portfolio site for jtcarrasco.com, built with Jekyll and hosted on GitH
 bundle install
 
 # Run local dev server (http://localhost:4000)
-bundle exec jekyll serve
+bundle exec jekyll serve --livereload
 
 # Build for production
 bundle exec jekyll build

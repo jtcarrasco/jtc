@@ -1,16 +1,16 @@
 ---
 title: Pathways in Education
 date: 2025-09-29 12:00:00 +0300
-subtitle: Web Development & Production Coordination
+subtitle: Web Design | Development | Project Management
 image: '/assets/projects/PIE-1.webp'
 category: current
 ---
 
 ## Scope
-Pathways in Education is a charter school network with campuses spanning the country from Idaho to Louisiana. The organization required a comprehensive digital transformation that balanced multiple critical objectives: creating user-friendly websites that maintained compliance with district and state documentation requirements while establishing a cohesive brand identity across all regions.
+[Pathways in Education](https://www.az.pathwaysineducation.org/) is a charter school network with campuses spanning the country from Idaho to Louisiana. The organization required a comprehensive digital transformation that balanced multiple critical objectives: creating user-friendly websites that maintained compliance with district and state documentation requirements while establishing a cohesive brand identity across all regions.
 
 ### Role & Approach
-At Skyrocket Education, I led the web development and production coordination for the Pathways in Education network. My approach focused on three key goals:
+At [Skyrocket Education](https://www.skyrocket-ed.com/), I led the web development and production coordination for the Pathways in Education network. My approach focused on three key goals:
 
 - **Enhanced User Experience** — I prioritized intuitive navigation and accessibility, ensuring that students, families, and stakeholders could easily find essential information while the sites continued to meet rigorous accountability standards.
 - **Regional Customization with Brand Unity** — Each regional site was tailored to reflect its local community and specific needs, while maintaining consistent brand elements that reinforced Pathways in Education's national identity and values.
