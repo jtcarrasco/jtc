@@ -3,6 +3,7 @@ layout: post
 title: "My VPS is My Homelab: Building a Self-Hosted Stack That Actually Works"
 description: "How I consolidated a scattered homelab into a cheap VPS with Docker, Tailscale, and Caddy, and why it's been more reliable than anything I ran at home."
 date: 2026-05-15 09:00:00 -0800
+published: false
 image: '/assets/profile/jtc_profile_pic.jpg'
 tags: [homelab, self-hosting, vps, tailscale, docker]
 ---

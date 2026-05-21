@@ -3,6 +3,7 @@ layout: post
 title: "Taming Four Email Accounts With One Gmail Hub, a Python Script, and n8n"
 description: "How I consolidated multiple email accounts into a single labeled inbox, built a Python script for bulk operations, and added a daily briefing via n8n."
 date: 2026-05-15 09:00:00 -0800
+published: false
 image: '/assets/profile/jtc_profile_pic.jpg'
 tags: [email, automation, n8n, gmail, productivity]
 ---

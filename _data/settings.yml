@@ -24,7 +24,7 @@ menu__settings:
 #-------------------------------
 # Author Settings
 author:
-  author__name: Jason Carrasco
+  author__name: Jason
   author__bio: I specialize in both visual design and coding, which allows me to tackle a wide range of projects with flexibility and creativity. I thrive on challenges that encourage learning, innovation, and the exploration of new tools and techniques to deliver exceptional results.
   #author__avatar: '/images/01-1.jpg'
 
@@ -153,7 +153,7 @@ contact:
 
 #-------------------------------
 # Comment Section (Disqus)
-disqus-identifier: anvodstudio-demo # Add your shortname for Disqus Comment. For example anvodstudio-demo
+disqus-identifier: # Add your shortname for Disqus Comment. For example anvodstudio-demo
 
 
 #-------------------------------

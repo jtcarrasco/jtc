@@ -3,6 +3,7 @@ layout: post
 title: "Building a Compounding Knowledge Base With an AI Wiki Agent"
 description: "How I built an agent that ingests articles and YouTube videos, extracts concepts and entities, and builds a structured wiki that gets more useful the more you feed it."
 date: 2026-05-15 09:00:00 -0800
+published: false
 image: '/assets/profile/jtc_profile_pic.jpg'
 tags: [ai, claude, knowledge-management, obsidian, homelab]
 ---
