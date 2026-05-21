@@ -16,8 +16,8 @@ menu__settings:
       url: '/about/'
     - title: 'Projects'
       url: '/projects/'
-    # - title: 'Blog'
-    #   url: '/blog/'
+    - title: 'Blog'
+      url: '/blog/'
     - title: 'Contact'
       url: '/contact/'
 
