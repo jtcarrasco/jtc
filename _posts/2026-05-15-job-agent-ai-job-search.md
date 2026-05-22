@@ -4,7 +4,7 @@ title: "I Built an AI Agent That Searches for Jobs While I Sleep"
 description: "How I automated the repetitive parts of job searching with a Claude Code agent that hits multiple APIs, deduplicates results, and drops a report in my Obsidian vault."
 date: 2026-05-15 09:00:00 -0800
 published: false
-image: '/assets/profile/jtc_profile_pic.jpg'
+image: '/assets/blog/job-agent.webp'
 tags: [ai, claude, automation, job-search, homelab]
 ---
 

@@ -4,7 +4,7 @@ title: "Claude Code Is My Collaborator. Obsidian Is Our Shared Brain."
 description: "How I use CLAUDE.md files, a memory system, and vault-based agents to give Claude persistent context across every session."
 date: 2026-05-15 09:00:00 -0800
 published: false
-image: '/assets/profile/jtc_profile_pic.jpg'
+image: '/assets/blog/claude-obsidian-workflow.webp'
 tags: [ai, claude, obsidian, pkm, automation]
 ---
 

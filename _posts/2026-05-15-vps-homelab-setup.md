@@ -3,16 +3,14 @@ layout: post
 title: "My VPS is My Homelab: Building a Self-Hosted Stack That Actually Works"
 description: "How I consolidated a scattered homelab into a cheap VPS with Docker, Tailscale, and Caddy, and why it's been more reliable than anything I ran at home."
 date: 2026-05-15 09:00:00 -0800
-published: false
-image: '/assets/profile/jtc_profile_pic.jpg'
+published: true
+image: '/assets/blog/vps-homelab-setup.webp'
 tags: [homelab, self-hosting, vps, tailscale, docker]
 ---
 
-Over the past year I've been building the infrastructure layer for a personal AI automation stack, a foundation that lets me run agents, workflows, and services reliably without depending on third-party platforms. The VPS and networking setup described here is what everything else runs on: the job search agent, the knowledge base, the daily briefings, the client monitoring. Getting this layer right made everything above it possible.
+I've been homelabing for years. Raspberry Pis PiHoling, a Synology NAS humming in the corner, running too many services for its small processor. At some point I decided to consolidate, and the answer wasn't a bigger NAS or a faster Pi. It was a cheap VPS and a smarter approach to networking.
 
-I've been homelabing for years. Raspberry Pis gathering dust, a Synology NAS humming in the corner, containers scattered across machines with no coherent plan. At some point I decided to consolidate, and the answer wasn't a bigger NAS or a faster Pi. It was a cheap VPS and a smarter approach to networking.
-
-Here's what I built and why it works for me.
+This setup is what everything else I've built runs on: the job search agent, the knowledge base, the daily briefings, the client monitoring. Getting this layer right made everything above it possible.
 
 ## The Problem With Traditional Homelabs
 
@@ -35,7 +33,7 @@ The key architectural decision: **nothing is exposed to the public internet**. C
 
 A handful of containers that actually get used:
 
-- **[n8n](https://n8n.io)**: workflow automation. Connects Gmail, Discord, Todoist, and a bunch of APIs. More on this below.
+- **[n8n](https://n8n.io)**: workflow automation. Connects [Gmail](https://mail.google.com), [Discord](https://discord.com), [Todoist](https://todoist.com), and a bunch of APIs.
 - **[FreshRSS](https://freshrss.org)**: RSS aggregator for job boards and tech feeds.
 - **[MainWP](https://mainwp.com)**: manages about 60 client WordPress sites from one dashboard.
 - **[Uptime Kuma](https://uptime.kuma.pet)**: monitors those same sites.
@@ -44,13 +42,13 @@ A handful of containers that actually get used:
 
 ## The Synology as Storage, Not Compute
 
-My Synology NAS stays in its lane: storage and media. Plex runs there because it needs to be close to the media files. Immich runs there for the same reason. Gluetun and the torrent stack live there because VPS providers (rightly) prohibit that kind of traffic.
+My Synology NAS stays in its lane: storage and media. [Plex](https://www.plex.tv) runs there because it needs to be close to the media files. [Immich](https://immich.app) runs there for the same reason. Gluetun and the torrent stack live there because VPS providers (rightly) prohibit that kind of traffic.
 
 The VPS gets stateless services. The NAS gets storage-heavy ones. They talk to each other over Tailscale when needed.
 
 ## Why Tailscale Changed Everything
 
-Before Tailscale I was using a combination of WireGuard configs I'd forget to update and SSH tunnels that broke whenever the IP changed. Tailscale replaced all of that with a zero-config mesh that just works.
+Before Tailscale I was managing SSH keys stored in [1Password](https://1password.com). It worked, but it wasn't elegant, and it didn't scale across multiple machines. Tailscale replaced all of that with a zero-config mesh that just works.
 
 Every device gets a stable IP. DNS is handled. The VPS is accessible from my phone, my laptop, my NAS, anywhere I have Tailscale running. The whole setup feels like a private LAN even though the machines are spread across three physical locations.
 
@@ -58,13 +56,13 @@ And critically: no port 22, no port 80, no port 443 exposed to the internet. The
 
 ## What I'd Do Differently
 
-The biggest thing: I'd start with Tailscale from day one. I wasted months on WireGuard configs that worked until they didn't.
+The biggest thing: I'd start with Tailscale from day one. The SSH key approach was functional but it didn't scale, and adding each new device was a manual process I kept putting off.
 
 I'd also resist the urge to run everything. The most useful services aren't the most impressive ones. Uptime Kuma and n8n get used every day. The fun experiment containers sit idle.
 
 ## What's Next
 
-The garage workstation is coming: an Optiplex 7070 Micro running CachyOS. Once that's up, I'm considering K3s across the VPS and the garage box, which would let me schedule workloads across both nodes automatically. The VPS handles public-facing services, the garage box handles anything that needs more compute.
+An Optiplex 7070 Micro running CachyOS is in the plan for a garage workstation. Whether that eventually turns into a K3s cluster across the VPS and the garage box is still an open question. The idea is appealing. The complexity is less so.
 
 For now though, the stack is boring in the best possible way. Everything just runs.
 
