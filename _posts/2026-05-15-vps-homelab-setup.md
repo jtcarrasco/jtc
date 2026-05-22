@@ -8,9 +8,9 @@ image: '/assets/blog/vps-homelab-setup.webp'
 tags: [homelab, self-hosting, vps, tailscale, docker]
 ---
 
-I've been homelabing for years. Raspberry Pis PiHoling, a Synology NAS humming in the corner, running too many services for its small processor. At some point I decided to consolidate, and the answer wasn't a bigger NAS or a faster Pi. It was a cheap VPS and a smarter approach to networking.
+Over the past year I've been building the infrastructure layer for a personal AI automation stack, a foundation that lets me run agents, workflows, and services reliably without depending on third-party platforms. The VPS and networking setup described here is what everything else runs on: the job search agent, the knowledge base, the daily briefings, the client monitoring, GitHub repos. Getting this layer right made everything above it possible.
 
-This setup is what everything else I've built runs on: the job search agent, the knowledge base, the daily briefings, the client monitoring. Getting this layer right made everything above it possible.
+I've been homelabing for years. Raspberry Pis PiHoling, a Synology NAS humming in the corner, running too many services for its small processor. At some point I decided to consolidate, and the answer wasn't a bigger NAS or a faster Pi. It was a cheap VPS and a smarter approach to networking.
 
 ## The Problem With Traditional Homelabs
 
@@ -42,7 +42,7 @@ A handful of containers that actually get used:
 
 ## The Synology as Storage, Not Compute
 
-My Synology NAS stays in its lane: storage and media. [Plex](https://www.plex.tv) runs there because it needs to be close to the media files. [Immich](https://immich.app) runs there for the same reason. Gluetun and the torrent stack live there because VPS providers (rightly) prohibit that kind of traffic.
+My Synology NAS stays in its lane: storage and media. Plex runs there because it needs to be close to the media files. Immich runs there for the same reason.
 
 The VPS gets stateless services. The NAS gets storage-heavy ones. They talk to each other over Tailscale when needed.
 
