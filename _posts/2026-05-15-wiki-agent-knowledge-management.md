@@ -3,7 +3,7 @@ layout: post
 title: "Building a Compounding Knowledge Base With an AI Wiki Agent"
 description: "How I built an agent that ingests articles and YouTube videos, extracts concepts and entities, and builds a structured wiki that gets more useful the more you feed it."
 date: 2026-05-15 09:00:00 -0800
-published: false
+published: true
 image: '/assets/blog/wiki-agent-knowledge-management.webp'
 tags: [ai, claude, knowledge-management, obsidian, homelab]
 ---
@@ -18,7 +18,7 @@ So I built `wiki_agent`, an AI agent that reads articles, extracts concepts and 
 
 ## How It Works
 
-The wiki lives in my [Obsidian](https://obsidian.md) vault under `Resources/Wiki/`. It has three page types:
+The wiki lives in my [Obsidian](https://obsidian.md) vault under `3_Resources/Wiki/`. It has three page types:
 
 - **Sources**: one page per ingested article or video. A summary, key concepts mentioned, key entities, notable claims.
 - **Concepts**: ideas, patterns, methods, frameworks that appear across multiple sources (e.g. "token efficiency," "knowledge graphs," "prompt caching").
