@@ -3,7 +3,7 @@ layout: post
 title: "Claude Code Is My Collaborator. Obsidian Is Our Shared Brain."
 description: "How I use CLAUDE.md files, a memory system, and vault-based agents to give Claude persistent context across every session."
 date: 2026-05-15 09:00:00 -0800
-published: false
+published: true
 image: '/assets/blog/claude-obsidian-workflow.webp'
 tags: [ai, claude, obsidian, pkm, automation]
 ---
@@ -20,7 +20,7 @@ That's fine for one-off questions. It's not fine if you want an AI to meaningful
 
 ## Obsidian as Persistent Context
 
-My Obsidian vault lives at `~/vault/` and syncs across all devices via [Syncthing](https://syncthing.net). It uses a PARA-inspired structure: Inbox, Projects, Areas, Resources, Archive.
+My Obsidian vault lives at `~/dev/_docs/` and syncs across all devices via [Syncthing](https://syncthing.net). It uses a PARA-inspired structure: Inbox, Projects, Areas, Resources, Archive.
 
 Claude Code has read/write access to this vault. Which means:
 
