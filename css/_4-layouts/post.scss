@@ -144,6 +144,10 @@
     }
   }
 
+  strong a {
+    font-weight: 700;
+  }
+
   :root[dark] & a {
     border-bottom-color: var(--white);
   }

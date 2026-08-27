@@ -7,7 +7,7 @@ image: '/assets/profile/jtc_profile_pic.webp'
 
 ## Why, Hello There
 
-I've been building websites professionally for over 15 years. Based in Los Angeles (Redondo Beach, specifically), I work at the overlap of design and development, which means I can take a project from the first conversation to the live site without things getting lost in translation. Most of my client work is in WordPress, though I've done enough React, PHP, and custom JavaScript to have opinions about all three.
+I've been building websites professionally for over 15 years. Based in Los Angeles (Redondo Beach, specifically), I work at the overlap of design and development, which means I can take a project from the first conversation to the live site without things getting lost in translation. Most of my client work is in WordPress, though I've done enough React, PHP, and custom JavaScript to have opinions about all three. Curious what's actually in my toolkit? Check out my [uses page](/uses/).
 
 Outside of work, I live with my wife Margot, daughter Petra, and our furbabies Lola 😺 and Angel 🐶.
 
@@ -21,11 +21,11 @@ Outside of that, I've built and maintained multiple WordPress sites for clients 
 
 I run two blogs. [cosmikdebris.site](https://cosmikdebris.site) is for the homelab and maker side: Linux installs, hardware projects, self-hosted tools, and things I break on purpose to see what happens.
 
-This blog is for the professional side: what I built, why I built it, and what I'd do differently. Posts skip the setup instructions and get to the decisions. If you need the nuts and bolts of how I did it, head to [cosmikdebris.site](https://cosmikdebris.site).
+[This blog](/blog/) is for the professional side: what I built, why I built it, and what I'd do differently. Posts skip the setup instructions and get to the decisions.
 
 ## Things I Love
 
-In my free time I'm an [avid music collector](https://www.discogs.com/user/jtcarrasco), dog walker, and cat wrangler. I enjoy science fiction books, traveling, cooking, and family bike rides.
+In my free time I'm an [avid music collector](https://www.discogs.com/user/jtcarrasco), dog walker, and cat wrangler. I enjoy [reading](/bookshelf/), traveling, cooking, and family bike rides.
 
 ---
 
