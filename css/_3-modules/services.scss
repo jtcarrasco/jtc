@@ -1,0 +1,51 @@
+/* Services */
+.service {
+  margin-bottom: 40px;
+
+  @media only screen and (max-width: $desktop) {
+    margin-bottom: 32px;
+  }
+}
+
+.service__inner {
+  height: 100%;
+  padding: 40px 32px;
+  text-align: center;
+  background-color: var(--background-alt-color);
+  border-radius: 8px;
+}
+
+.service__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  margin-bottom: 24px;
+  font-size: 28px;
+  color: var(--button-color);
+  background-color: var(--brand-color);
+  border-radius: 50%;
+}
+
+.service__title {
+  margin-bottom: 12px;
+  font-size: 22px;
+  color: var(--heading-font-color);
+}
+
+.service__description {
+  margin-bottom: 0;
+  color: var(--text-alt-color);
+}
+
+.service__link {
+  display: inline-block;
+  margin-top: 16px;
+  font-weight: 600;
+  color: var(--link-color);
+
+  &:hover {
+    color: var(--link-color-hover);
+  }
+}

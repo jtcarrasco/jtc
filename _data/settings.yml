@@ -16,6 +16,8 @@ menu__settings:
       url: '/about/'
     - title: 'Projects'
       url: '/projects/'
+    - title: 'Services'
+      url: '/services/'
     - title: 'Blog'
       url: '/blog/'
     - title: 'Contact'
@@ -40,7 +42,9 @@ social:
 # Hero Settings
 hero:
   hero__title: Hi, I'm Jason.
-  hero__description: I specialize in both visual design and development, bridging the gap between concept and execution. This dual expertise allows me to design intuitive interfaces and build them to spec, eliminating the translation issues that typically arise between separate design and development teams. I thrive on challenges that push me into unfamiliar territory, whether that means exploring emerging frameworks, mastering new tools, or solving problems that start with "Is this even possible?" Continuous learning isn't just part of the job—it's what keeps me engaged.
+  hero__description:
+    - "I specialize in both visual design and development, bridging the gap between concept and execution. This dual expertise lets me design intuitive interfaces and build them to spec, without the miscommunication that comes from splitting design and development across separate teams. I thrive on problems that start with \"Is this even possible?\" and I'm always exploring new frameworks and tools to keep what I build current."
+    - "That same hands-on approach carries over to how I work with small businesses and individuals across the Beach Cities and South Bay Los Angeles: helping them get comfortable, secure, and efficient with the tools they already have, from AI adoption and Google Workspace to everyday troubleshooting. Technology should work for your business, not slow it down. One-on-one support, in-person or remotely, on your schedule."
   #hero__image: '/images/01.jpg'
 
 
@@ -50,6 +54,26 @@ mailchimp: enable # To enable the mailchimp form, use the value 'enable'. To dis
 mailchimp__identifier: gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
 mailchimp__input__text: Your email address...
 mailchimp__button__text: Get updates
+
+
+#-------------------------------
+# Services Settings
+services__settings:
+  services__title: What I Do
+  services__description: Three ways I help clients and small businesses get more out of their technology.
+  services__items:
+    - icon: "fa-solid fa-laptop-code"
+      title: Web Development
+      description: Custom WordPress sites and web builds, from first concept to launch and ongoing support.
+      link: /projects/
+    - icon: "fa-solid fa-chalkboard-user"
+      title: Training
+      description: One-on-one AI and digital tools training for small business owners who want to get comfortable with tech that actually helps.
+      link: /services/
+    - icon: "fa-solid fa-headset"
+      title: IT Support
+      description: Hands-on troubleshooting, cloud setup, and everyday tech support, in-person or remote.
+      link: /services/
 
 
 #-------------------------------
@@ -137,6 +161,8 @@ footer_menu__settings:
       url: '/'
     - title: 'Projects'
       url: '/projects/'
+    - title: 'Services'
+      url: '/services/'
     - title: 'Blog'
       url: '/blog/'
     - url: '/about/'

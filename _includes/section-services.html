@@ -1,0 +1,33 @@
+<!-- begin services -->
+<section class="section services animate">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+
+        <div class="section__info">
+          <h2 class="section__title">{{ site.data.settings.services__settings.services__title }}</h2>
+          {% if site.data.settings.services__settings.services__description %}
+            <p class="section__description">{{ site.data.settings.services__settings.services__description }}</p>
+          {% endif %}
+        </div>
+
+        <div class="row">
+          {% for service in site.data.settings.services__settings.services__items %}
+          <div class="service col col-4 col-d-6 col-t-12">
+            <div class="service__inner">
+              <div class="service__icon"><i class="{{ service.icon }}"></i></div>
+              <h3 class="service__title">{{ service.title }}</h3>
+              <p class="service__description">{{ service.description }}</p>
+              {% if service.link %}
+                <a href="{{ service.link | relative_url }}" class="service__link">Learn more</a>
+              {% endif %}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end services -->
