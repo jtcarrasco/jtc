@@ -6,3 +6,5 @@ _site
 vendor/bundle
 .bundle
 CLAUDE.md
+# Claude Code project config: local only, never published
+.claude/
