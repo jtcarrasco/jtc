@@ -9,10 +9,10 @@ Books I've read, with notes. Organized by year.
 
 <div class="book-year-heading">
   <h2>2026</h2>
-  <span class="book-year-heading__count">16 books read</span>
+  <span class="book-year-heading__count">18 books read</span>
 </div>
 
-**Currently reading:** [Neuromancer](https://www.amazon.com/s?k=Neuromancer+William+Gibson&tag=jtcarrascoser-20) — William Gibson *(Sci-Fi)* &nbsp;·&nbsp; [Ham on Rye](https://www.amazon.com/s?k=Ham+on+Rye+Charles+Bukowski&tag=jtcarrascoser-20) — Charles Bukowski *(Fiction)*
+**Currently reading:** [Ham on Rye](https://www.amazon.com/s?k=Ham+on+Rye+Charles+Bukowski&tag=jtcarrascoser-20) — Charles Bukowski *(Fiction)* &nbsp;·&nbsp; [The Reverse Centaur's Guide to Life After AI](https://www.amazon.com/s?k=The+Reverse+Centaur%27s+Guide+to+Life+After+AI+Cory+Doctorow&tag=jtcarrascoser-20) — Cory Doctorow *(Non-fiction)*
 
 <div class="book-grid">
 
@@ -22,6 +22,7 @@ Books I've read, with notes. Organized by year.
     </a>
     <a class="book-card__title" href="https://www.amazon.com/s?k=Sonic+Life+Thurston+Moore&tag=jtcarrascoser-20">Sonic Life</a>
     <span class="book-card__author">Thurston Moore</span>
+    <span class="book-card__rating">★★★☆☆</span>
     <span class="book-card__genre">Memoir</span>
   </div>
 
@@ -141,6 +142,7 @@ Books I've read, with notes. Organized by year.
     </a>
     <a class="book-card__title" href="https://www.amazon.com/s?k=Brothers+Alex+Van+Halen&tag=jtcarrascoser-20">Brothers</a>
     <span class="book-card__author">Alex Van Halen</span>
+    <span class="book-card__rating">★★☆☆☆</span>
     <span class="book-card__genre">Memoir</span>
   </div>
 
@@ -150,6 +152,7 @@ Books I've read, with notes. Organized by year.
     </a>
     <a class="book-card__title" href="https://www.amazon.com/s?k=The+Year+of+Magical+Thinking+Joan+Didion&tag=jtcarrascoser-20">The Year of Magical Thinking</a>
     <span class="book-card__author">Joan Didion</span>
+    <span class="book-card__rating">★★★★☆</span>
     <span class="book-card__genre">Memoir</span>
   </div>
 
@@ -159,6 +162,7 @@ Books I've read, with notes. Organized by year.
     </a>
     <a class="book-card__title" href="https://www.amazon.com/s?k=Dune+Messiah+Frank+Herbert&tag=jtcarrascoser-20">Dune Messiah</a>
     <span class="book-card__author">Frank Herbert</span>
+    <span class="book-card__rating">★★★★★</span>
     <span class="book-card__genre">Sci-Fi</span>
   </div>
 
@@ -168,7 +172,28 @@ Books I've read, with notes. Organized by year.
     </a>
     <a class="book-card__title" href="https://www.amazon.com/s?k=Blue+Nights+Joan+Didion&tag=jtcarrascoser-20">Blue Nights</a>
     <span class="book-card__author">Joan Didion</span>
+    <span class="book-card__rating">★★★☆☆</span>
     <span class="book-card__genre">Memoir</span>
+  </div>
+
+  <div class="book-card">
+    <a class="book-card__cover" href="https://www.amazon.com/s?k=Neuromancer+William+Gibson&tag=jtcarrascoser-20">
+      <img src="https://covers.openlibrary.org/b/id/283860-M.jpg" alt="Neuromancer cover" loading="lazy">
+    </a>
+    <a class="book-card__title" href="https://www.amazon.com/s?k=Neuromancer+William+Gibson&tag=jtcarrascoser-20">Neuromancer</a>
+    <span class="book-card__author">William Gibson</span>
+    <span class="book-card__rating">★★★★★</span>
+    <span class="book-card__genre">Sci-Fi</span>
+  </div>
+
+  <div class="book-card">
+    <a class="book-card__cover" href="https://www.amazon.com/s?k=The+Beach+Alex+Garland&tag=jtcarrascoser-20">
+      <img src="https://covers.openlibrary.org/b/id/381727-M.jpg" alt="The Beach cover" loading="lazy">
+    </a>
+    <a class="book-card__title" href="https://www.amazon.com/s?k=The+Beach+Alex+Garland&tag=jtcarrascoser-20">The Beach</a>
+    <span class="book-card__author">Alex Garland</span>
+    <span class="book-card__rating">★★★☆☆</span>
+    <span class="book-card__genre">Fiction</span>
   </div>
 
 </div>
