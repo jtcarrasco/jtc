@@ -135,6 +135,26 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
 
+  /* ============================
+  // Post Hero Carousel
+  ============================ */
+  if (document.querySelector(".post-slider")) {
+    tns({
+      container: ".post-slider",
+      items: 1,
+      nav: true,
+      controls: true,
+      controlsText: ["&#8249;", "&#8250;"],
+      mouseDrag: true,
+      autoplay: true,
+      autoplayTimeout: 5000,
+      autoplayButtonOutput: false,
+      autoplayHoverPause: true,
+      speed: 500
+    });
+  }
+
+
   /* =======================
   // Copy Code Button
   ======================= */
