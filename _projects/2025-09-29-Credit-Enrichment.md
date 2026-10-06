@@ -3,7 +3,7 @@ title: Credit Enrichment
 date: 2025-09-29 12:00:00 +0300
 subtitle: Web Design | Development | Project Management
 image: '/assets/projects/credit-enrichment.webp'
-category: current
+category: websites
 ---
 
 ## Scope

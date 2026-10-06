@@ -4,7 +4,19 @@ date: 2026-09-27 13:00:00 -0700
 subtitle: Open Source | Linux Desktop Plugin | QML / Quickshell | Python
 description: "Open-source FreshRSS reader for the Omarchy and DankMaterialShell Linux desktops: unread count in the status bar, keyboard-driven triage with FreshRSS's own shortcuts, and read/star sync through the Google Reader API. Security-reviewed for the Omarchy plugin marketplace."
 image: '/assets/projects/freshrss-omarchy.webp'
-category: current
+thumbnail: '/assets/projects/freshrss-logo.webp'
+images:
+  - src: '/assets/projects/freshrss-omarchy.webp'
+    alt: 'FreshRSS for Omarchy screenshot'
+  - src: '/assets/projects/freshrss-window.webp'
+    alt: 'Pop-out window for full-size reading'
+  - src: '/assets/projects/freshrss-list.webp'
+    alt: 'Article list for a category'
+  - src: '/assets/projects/freshrss-article.webp'
+    alt: 'Reading an article'
+  - src: '/assets/projects/freshrss-dms.webp'
+    alt: 'Categories with unread counts on DankMaterialShell'
+category: apps
 ---
 
 ## Scope

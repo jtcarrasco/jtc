@@ -11,7 +11,21 @@ layout: default
     {% endif %}
   </div>
 
-  {% if page.image %}
+  {% if page.images %}
+  <div class="row">
+    <div class="col col-12">
+      <div class="post-image post-carousel animate">
+        <div class="post-slider">
+          {% for slide in page.images %}
+          <div class="post-slide">
+            <img class="no-lightense" src="{{site.baseurl}}{{slide.src}}" alt="{{slide.alt | default: page.title}}">
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  {% elsif page.image %}
   <div class="row">
     <div class="col col-12">
       <div class="page-image animate">

@@ -3,7 +3,7 @@ title: Pathways in Education
 date: 2025-09-29 12:00:00 +0300
 subtitle: Web Design | Development | Project Management
 image: '/assets/projects/PIE-1.webp'
-category: current
+category: websites
 ---
 
 ## Scope

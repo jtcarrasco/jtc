@@ -3,7 +3,7 @@ title: DAS Beer Garden
 date: 2022-03-01 12:00:00 +0300
 subtitle: Web Design | Development | Project Management
 image: '/assets/projects/das-beergarden.webp'
-category: past
+category: websites
 ---
 
 ## Scope

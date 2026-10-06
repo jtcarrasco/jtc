@@ -3,7 +3,7 @@ title: Opportunities For Learning
 date: 2022-03-01 12:00:00 +0300
 subtitle: Web Development | Production Management
 image: '/assets/projects/ofl-schools.webp'
-category: past
+category: websites
 ---
 
 ## Scope

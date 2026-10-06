@@ -3,7 +3,7 @@ title: Equity Summit Website
 date: 2025-09-29 12:00:00 +0300
 subtitle: Web Design | Development | Project Management
 image: '/assets/projects/equity-1.webp'
-category: current
+category: websites
 ---
 
 ## Scope

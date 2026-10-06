@@ -4,7 +4,19 @@ date: 2026-09-27 12:00:00 -0700
 subtitle: Open Source | Linux Desktop Plugin | QML / Quickshell | Python
 description: "Open-source Audiobookshelf client for the Omarchy and DankMaterialShell Linux desktops: a keyboard-driven audiobook and podcast player in the status bar, built with QML/Quickshell and Python and security-reviewed for the Omarchy plugin marketplace."
 image: '/assets/projects/audiobookshelf-omarchy.webp'
-category: current
+thumbnail: '/assets/projects/audiobookshelf-logo.webp'
+images:
+  - src: '/assets/projects/audiobookshelf-omarchy.webp'
+    alt: 'Audiobookshelf for Omarchy screenshot'
+  - src: '/assets/projects/audiobookshelf-home.webp'
+    alt: 'Home screen with search'
+  - src: '/assets/projects/audiobookshelf-library.webp'
+    alt: 'Book library'
+  - src: '/assets/projects/audiobookshelf-episodes.webp'
+    alt: 'Podcast episode list'
+  - src: '/assets/projects/audiobookshelf-dms.webp'
+    alt: 'Books view on DankMaterialShell'
+category: apps
 ---
 
 ## Scope

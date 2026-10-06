@@ -3,7 +3,7 @@ title: Regional Websites for OFY and OFL
 date: 2025-09-29 12:00:00 +0300
 subtitle: Web Design | Development | Project Management
 image: '/assets/projects/sharks-homepage.webp'
-category: current
+category: websites
 ---
 
 ## Scope

@@ -15,8 +15,8 @@ description:
 
   <div class="project-filters">
     <button class="project-filter active" data-filter="all">All</button>
-    <button class="project-filter" data-filter="current">Current</button>
-    <button class="project-filter" data-filter="past">Past</button>
+    <button class="project-filter" data-filter="apps">Apps</button>
+    <button class="project-filter" data-filter="websites">Websites</button>
   </div>
 </div>
 
@@ -26,7 +26,7 @@ description:
       <article class="project col col-4 col-d-6 col-t-12" data-category="{{ project.category }}">
         <div class="project__content">
           <a href="{{ project.url }}" class="project__image">
-            <img class="lazy" data-src="{{ project.image }}" alt="{{ project.title }}">
+            <img class="lazy" data-src="{{ project.thumbnail | default: project.image }}" alt="{{ project.title }}">
           </a>
           <div class="project__info">
             <h3 class="project__title"><a href="{{ project.url }}">{{ project.title }}</a></h3>
@@ -63,7 +63,7 @@ description:
 
   // Check URL hash for pre-selected filter
   var hash = window.location.hash.replace('#', '');
-  if (hash === 'current' || hash === 'past') {
+  if (hash === 'apps' || hash === 'websites') {
     var target = document.querySelector('.project-filter[data-filter="' + hash + '"]');
     if (target) target.click();
   }
