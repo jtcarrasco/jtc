@@ -211,7 +211,8 @@ Rinse and repeat for each service. Here's my stack at the moment (there's more, 
 
 ## Step 6: Lock Down UFW
 
-Belt and suspenders. Binding to the Tailscale IP already keeps the outside world out, but UFW adds an explicit "no" on top:
+**"YOU SHALL NOT PASS!"**
+Binding to the Tailscale IP already keeps the outside world out, but UFW adds an explicit "no" on top:
 
 ```bash
 ufw default deny incoming
