@@ -11,7 +11,7 @@ The tools, hardware, and software I use day-to-day. Inspired by [uses.tech](http
 
 ### Machines
 - [**MacBook Air**](https://www.amazon.com/dp/B0GR1BY1SZ?tag=jtcarrascoser-20) — primary dev machine
-- **[Arch Linux desktop](https://www.amazon.com/dp/B08WNF8FP6?tag=jtcarrascoser-20)** (Optiplex 7060 Micro, CachyOS) — desktop computer
+- **[Arch Linux desktop](https://www.amazon.com/dp/B08WNF8FP6?tag=jtcarrascoser-20)** (Optiplex 7060 Micro) — custom vanilla Arch + Hyprland (more to come!)
 - [**RackNerd VPS**](https://my.racknerd.com/aff.php?aff=21044) — Ubuntu 24.04 LTS, always-on, runs all homelab services
 - i7 3080 GPU "gaming" Machine -- now used as a [Proxmox](https://www.proxmox.com/) server
 - [**Synology NAS**](https://www.amazon.com/dp/B0C8S7SF4B?tag=jtcarrascoser-20) — For Storage
@@ -19,11 +19,12 @@ The tools, hardware, and software I use day-to-day. Inspired by [uses.tech](http
 
 ## Terminal + Editor
 
-- **[WezTerm](https://wezterm.org/)** — terminal. Fast, GPU-accelerated, configured in Lua. Same config synced across Mac and Linux via dotfiles.
+- **[Ghostty](https://ghostty.org/)** — terminal. Fast, GPU-accelerated, native on both platforms. Same config synced across Mac and Linux via dotfiles.
 - **[tmux](https://github.com/tmux/tmux)** — session management. Never lose a session again.
 - **[zsh](https://www.zsh.org/)** with **[Starship](https://starship.rs/)** prompt — minimal, informative
 - **[Yazi](https://yazi-rs.github.io/)** — terminal file manager, replaces most of what I used to do with Finder
-- **[Neovim](https://neovim.io/)** — still learning, slowly replacing VS Code for server-side editing
+- **[Zed](https://zed.dev/)** — my main IDE. Fast, and its remote development mode lets me edit projects right on the VPS.
+- **[Neovim](https://neovim.io/)** — for quick edits in the terminal. Still learning, and slowly getting faster at it.
 - **[Claude Code](https://claude.ai/code)** — AI coding assistant. I use it every day. More than just autocomplete — it runs agents, writes files, hits APIs.
 
 ## Networking and Infrastructure

@@ -9,12 +9,22 @@ Books I've read, with notes. Organized by year.
 
 <div class="book-year-heading">
   <h2>2026</h2>
-  <span class="book-year-heading__count">18 books read</span>
+  <span class="book-year-heading__count">19 books read</span>
 </div>
 
-**Currently reading:** [Ham on Rye](https://www.amazon.com/s?k=Ham+on+Rye+Charles+Bukowski&tag=jtcarrascoser-20) — Charles Bukowski *(Fiction)* &nbsp;·&nbsp; [The Reverse Centaur's Guide to Life After AI](https://www.amazon.com/s?k=The+Reverse+Centaur%27s+Guide+to+Life+After+AI+Cory+Doctorow&tag=jtcarrascoser-20) — Cory Doctorow *(Non-fiction)*
+**Currently reading:** [Ham on Rye](https://www.amazon.com/s?k=Ham+on+Rye+Charles+Bukowski&tag=jtcarrascoser-20) — Charles Bukowski *(Fiction)* &nbsp;·&nbsp; [Overclocked](https://www.amazon.com/s?k=Overclocked+Cory+Doctorow&tag=jtcarrascoser-20) — Cory Doctorow *(Sci-fi short stories)*
 
 <div class="book-grid">
+
+  <div class="book-card">
+    <a class="book-card__cover" href="https://www.amazon.com/s?k=The+Reverse+Centaur%27s+Guide+to+Life+After+AI+Cory+Doctorow&tag=jtcarrascoser-20">
+      <img src="https://covers.openlibrary.org/b/id/15232969-M.jpg" alt="The Reverse Centaur's Guide to Life After AI cover" loading="lazy">
+    </a>
+    <a class="book-card__title" href="https://www.amazon.com/s?k=The+Reverse+Centaur%27s+Guide+to+Life+After+AI+Cory+Doctorow&tag=jtcarrascoser-20">The Reverse Centaur's Guide to Life After AI</a>
+    <span class="book-card__author">Cory Doctorow</span>
+    <span class="book-card__rating">★★★★☆</span>
+    <span class="book-card__genre">Tech</span>
+  </div>
 
   <div class="book-card">
     <a class="book-card__cover" href="https://www.amazon.com/s?k=Sonic+Life+Thurston+Moore&tag=jtcarrascoser-20">
