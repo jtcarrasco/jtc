@@ -39,11 +39,15 @@ Sessions are typically one to two hours. We focus on whatever is most useful to 
 
 ## Rates
 
+{% comment %}
+Rates table hidden 2026-10-15. Remove this comment wrapper to show it again.
+
 | Service | Rate |
 |---|---|
 | Hourly (remote) | $120/hr |
 | Hourly (in-person) | $150/hr |
 | Monthly retainer | Starting at $480/mo |
+{% endcomment %}
 
 *Packages and multi-session bundles available — [contact me](/contact/) to discuss.*
 
