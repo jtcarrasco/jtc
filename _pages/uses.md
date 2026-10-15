@@ -60,10 +60,10 @@ All running on the VPS, Tailscale-only access:
 
 ## Desk Setup
 
-- Monitor: [**Dell 27" P2723QE**](https://www.amazon.com/dp/B09TY127B8?tag=jtcarrascoser-20)
-- Keyboard: [**Corne 36 wireless MX**](https://keyboard-hoarders.com/products/corne-wireless-split-keyboard-3?pr_prod_strat=e5_desc&pr_rec_id=65d1f63fc&pr_rec_pid=8175297888344&pr_ref_pid=8171080745048&pr_seq=uniform)
-- Mouse/trackpad: [**Elecom EX-G Left Handed Thumb Control Trackball Mouse Wireless**](https://www.amazon.com/dp/B08GR2K8WH?tag=jtcarrascoser-20)
-- Headphones: [**Apple AirPods Pro 3**](https://www.amazon.com/dp/B0FQFB8FMG?tag=jtcarrascoser-20)
+- Monitor: [**Dell 27" P2723QE**](https://www.amazon.com/dp/B09TY127B8?tag=jtcarrascoser-20). My BenQ died and this fit the bill. I want to upgrade to the [DELL 32" U3225QE](https://link.amazon/B0eTQSsdm).
+- Keyboard: [**Corne 36 wireless MX**](https://keyboard-hoarders.com/products/corne-wireless-split-keyboard-3?pr_prod_strat=e5_desc&pr_rec_id=65d1f63fc&pr_rec_pid=8175297888344&pr_ref_pid=8171080745048&pr_seq=uniform). Because why do you need more keys?
+- Mouse/trackpad: [**Elecom EX-G Left Handed Thumb Control Trackball Mouse Wireless**](https://www.amazon.com/dp/B08GR2K8WH?tag=jtcarrascoser-20). Literally the ONLY left-handed trackball on the market.
+- Headphones: [**Apple AirPods Pro 3**](https://www.amazon.com/dp/B0FQFB8FMG?tag=jtcarrascoser-20). Probably my best tech purchase last year. Seriously, get these if you're an iPhone user.
 
 ## This Site
 
