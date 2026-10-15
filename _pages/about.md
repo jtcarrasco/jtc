@@ -19,9 +19,7 @@ Outside of that, I've built and maintained multiple WordPress sites for clients 
 
 ## What I Write About
 
-I run two blogs. [cosmikdebris.site](https://cosmikdebris.site) is for the homelab and maker side: Linux installs, hardware projects, self-hosted tools, and things I break on purpose to see what happens.
-
-[This blog](/blog/) is for the professional side: what I built, why I built it, and what I'd do differently. Posts skip the setup instructions and get to the decisions.
+[The blog](/blog/) covers what I built, why I built it, and what I'd do differently. When you want the nuts and bolts too (Linux installs, self-hosted tools, and things I break on purpose to see what happens), the posts tagged [tutorial](/tags/?tag=tutorial) end with a build-it-yourself section that has the exact commands and gotchas.
 
 ## Things I Love
 

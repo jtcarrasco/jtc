@@ -8,7 +8,7 @@ image: '/assets/blog/job-search-agent-kit.webp'
 tags: [ai, tools, claude, claude-code, automation, job-search]
 ---
 
-Back in May I wrote up [how I built an AI agent to do my job searching](/blog/job-agent-ai-job-search-tutorial). It worked. Heck, it still works. It has run most weeks since spring, and in that time it has dug up postings I never would have found by hand. It has also taught me every way a little agent can quietly fall over on a Tuesday morning while I'm still on my first coffee.
+Back in May I wrote up [how I built an AI agent to do my job searching](/blog/job-agent-ai-job-search). It worked. Heck, it still works. It has run most weeks since spring, and in that time it has dug up postings I never would have found by hand. It has also taught me every way a little agent can quietly fall over on a Tuesday morning while I'm still on my first coffee.
 
 The question I kept getting after that post wasn't "how does it work?" It was "can I just have yours?" And for a long time the honest answer was no. Mine was welded to my setup: a VPS, a cron dispatcher, an Obsidian vault, my resume, my salary floor and my very specific grudges against certain staffing agencies (you know who you are).
 

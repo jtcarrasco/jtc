@@ -1,22 +1,43 @@
 ---
 layout: post
-title: "Stop Managing Multiple Inboxes Like a Psychopath: A Gmail Hub Setup Guide"
-description: "Step-by-step: forward every account into one Gmail hub, label mail automatically, manage it in bulk with a Python script, and automate it with n8n."
-date: 2026-05-22 09:00:00 -0800
+title: "Taming Four Email Accounts With One Gmail Hub, a Python Script, and n8n"
+description: "How I consolidated four email accounts into one labeled Gmail inbox, with a Python script for bulk cleanup, an n8n daily briefing and the full setup steps."
+date: 2026-05-13 09:00:00 -0700
 published: true
 image: '/assets/blog/email-organization-hub-tutorial.webp'
-tags: [automation, tutorial, email, n8n, gmail]
+tags: [email, automation, tutorial, n8n, gmail, productivity]
 ---
 
-*This is the step-by-step version. For the why behind it, read [the overview](/blog/email-organization-hub).*
+Good automation starts with knowing what's going on across your systems without checking each one by hand. Email is the messiest example of that. Multiple accounts, multiple purposes and no single view of any of it. Before I could build AI workflows that did something with email (job application follow-ups, daily briefings, alert routing), I needed the system underneath to be clean. This post is how I got there.
 
-At one point I had five email accounts and zero system for any of them. One for clients. One for server alerts. One I'd been using for store signups since 2011 that was getting 40-plus promo emails a day (Bed Bath & Beyond alone was sending three). I'd pick up my phone in the morning, see a wall of 300 unread messages spread across a bunch of apps, and put it right back down without reading a thing. Inbox zero was a myth, like a well-rested parent.
+At one point I had four email accounts and zero system for any of them. One for clients. One for server alerts. One I'd been using for store signups since 2011 that was getting 40-plus promo emails a day (Bed Bath & Beyond alone was sending three). I'd pick up my phone in the morning, see a wall of 300 unread messages spread across a bunch of apps, and put it right back down without reading a thing. Inbox zero was a myth, like a well-rested parent.
 
 The fix was simpler than I expected. One [Gmail](https://mail.google.com) account is the hub, everything else forwards into it, and every message gets labeled by where it came from the moment it lands. Add a Python script for bulk cleanup and an [n8n](https://n8n.io) daily briefing, and the whole thing pretty much runs itself.
 
+## The accounts
+
+I started with four addresses, each with its own job:
+
+- **hub@gmail.com**: the hub. Everything ends up here.
+- **hello@yourdomain.com**: client-facing. Anything from clients lands here.
+- **info@yourdomain.com**: infrastructure. Server alerts, billing, hosting.
+- **junk@gmail.com**: the designated junk drawer. Stores, newsletters and anything I don't need to read right away.
+
+The goal: read one inbox, and route everything else automatically.
+
+## How it fits together
+
+Every account except the hub forwards to the hub. Gmail's forwarding is reliable and free. Once everything lands at hub@gmail.com, Gmail filters label each email with where it came from: `source/hello`, `source/info` or `source/junk`.
+
+So instead of checking four inboxes, I check one, and the label always tells me where an email came from.
+
+---
+
+## Build it yourself
+
 **What you'll end up with:** All email in one inbox, each message labeled by source account, a Python script for bulk operations, and a morning briefing posted to [Discord](https://discord.com) with email + calendar + tasks.
 
-**Prerequisites:** Multiple Gmail/Google Workspace accounts, Python 3, n8n running (see the VPS tutorial), a Discord server.
+**Prerequisites:** Multiple Gmail/Google Workspace accounts, Python 3, n8n running (see [my VPS post](/blog/vps-homelab-setup)), a Discord server.
 
 ---
 
@@ -367,6 +388,20 @@ python3 gmail_helper.py bulk-trash "label:Source/junk"
 **Gmail filter isn't labeling forwarded messages:** Check that the filter is matching the `To:` field, not `From:`. Forwarded messages from `hello@yourdomain.com` arrive with that as the original destination. Filter on it, not on the hub address.
 
 **Todoist tasks showing the wrong "today":** the code node uses `America/Los_Angeles` for the date, not the server's clock. If your VPS is in another timezone, that's expected. Change it to your own timezone if you're not on the West Coast.
+
+---
+
+## What I'd do differently
+
+The hardest part wasn't the code. It was deciding which account gets which email. I spent way too long overthinking the categories. The simple rule (one account per purpose, one hub) beats anything clever.
+
+I'd also build the Gmail helper script sooner. The website is fine right up until you need to touch 50 emails at once.
+
+## The result
+
+One inbox, labeled by source. Automatic briefings. Follow-up tasks that create themselves. The junk account gets swept once a week.
+
+Email went from something I checked nervously to something I deal with on purpose. That was the whole point. Inbox zero is still a myth, but at least now it's a myth I can see from one place.
 
 ---
 

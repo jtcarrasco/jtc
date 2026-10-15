@@ -1,18 +1,65 @@
 ---
 layout: post
-title: "How to Build a Self-Hosted VPS Homelab With Tailscale and Docker"
-description: "Step-by-step: lock down a cheap VPS behind Tailscale, run services in Docker, and front them with Caddy, with the exact commands and the gotchas."
-date: 2026-05-20 09:00:00 -0800
+title: "My VPS is My Homelab: Building a Self-Hosted Stack That Actually Works"
+description: "How I consolidated a scattered homelab onto a cheap VPS with Docker, Tailscale and Caddy, plus the exact commands to build it yourself."
+date: 2026-05-11 09:00:00 -0700
 published: true
 image: '/assets/blog/vps-homelab-setup-tutorial.webp'
 tags: [homelab, tutorial, self-hosting, vps, tailscale, docker]
 ---
+Over the past year I've been building the foundation for a personal AI automation setup: a place where agents, workflows and services can run reliably without me depending on somebody else's platform. The VPS and networking setup in this post is what everything else sits on. The job search agent, the knowledge base, the daily briefings, the client monitoring and my GitHub repos all run on top of it. Getting this layer right is what made everything above it possible.
 
-*This is the step-by-step version. For the why behind it, read [the overview](/blog/vps-homelab-setup).*
+I've been homelabbing for years. Raspberry Pis running Pi-hole, a Synology NAS humming in the corner running way too many services for its little processor. At some point I decided to consolidate, and the answer wasn't a bigger NAS or a faster Pi. It was a cheap VPS and a smarter way of handling the network.
+
+## The problem with the classic homelab
+
+Most homelabs fail the same way: they're tied to your home internet. Changing IP addresses, ISP outages, NAT headaches and port forwarding rules you forgot you ever set up. It's all fragile in ways that don't matter... until they suddenly do.
+
+I wanted my services reachable all the time, from any device, from anywhere. And I didn't want to spend a bunch of money doing it.
 
 For years my homelab security plan was "open some ports and hope for the best." I had services bound to `0.0.0.0`, a UFW config I sort of remembered setting up once, and that low hum of anxiety you get from reading one too many breach postmortems. It worked the way a screen door works. Technically a door.
 
-Then I found a better way. Put everything behind [Tailscale](https://tailscale.com/), let [Caddy](https://caddyserver.com/) handle TLS, and never think about open ports again. Here's the whole setup, start to finish.
+## The stack
+
+The core is simple:
+
+- **[RackNerd](https://racknerd.com) VPS**: a cheap Ubuntu 24.04 box that's always on.
+- **[Tailscale](https://tailscale.com)**: a private network that connects all my devices to each other. Every machine I own (the VPS, my MacBook, the NAS, my Arch Linux desktop) is on the same private network all the time, with zero port forwarding.
+- **[Docker](https://www.docker.com)**: every service runs in a container with its own compose file.
+- **[Caddy](https://caddyserver.com)**: the reverse proxy. It handles HTTPS for every service on my Tailscale network on its own.
+
+The big decision: **nothing is exposed to the public internet.** Caddy only listens on the Tailscale IP. SSH only listens on Tailscale. Every single service is Tailscale-only.
+
+## What's running
+
+A handful of containers that actually get used:
+
+- **[n8n](https://n8n.io)**: workflow automation. It ties together [Gmail](https://mail.google.com), [Discord](https://discord.com), [Todoist](https://todoist.com) and a pile of APIs.
+- **[FreshRSS](https://freshrss.org)**: my RSS reader for job boards and tech news.
+- **[MainWP](https://mainwp.com)**: manages about 60 client WordPress sites from one dashboard.
+- **[Uptime Kuma](https://uptime.kuma.pet)**: keeps an eye on those same sites.
+- **[Glance](https://github.com/glanceapp/glance)**: my homelab dashboard. One tab, everything I need to see.
+- **[Watchtower](https://containrrr.dev/watchtower/)**: updates the containers overnight.
+
+## The Synology does storage, not compute
+
+My Synology NAS stays in its lane: storage and media. Plex runs there because it needs to sit close to the media files. Immich runs there for the same reason.
+
+The VPS gets the lightweight services, the NAS gets the storage-heavy ones, and they talk to each other over Tailscale when they need to.
+
+## Why Tailscale changed everything
+
+Before Tailscale I was juggling SSH keys stored in [1Password](https://1password.com). It worked, but it wasn't pretty, and it got worse with every machine I added. Tailscale replaced all of it with a private network that pretty much sets itself up.
+
+Every device gets a stable IP. DNS is handled. I can reach the VPS from my phone, my laptop, my NAS, anywhere Tailscale is running. The whole thing feels like one private home network, even though the machines are spread across three different physical locations.
+
+And the best part: no port 22, no port 80, no port 443 open to the internet. The only way in is through Tailscale's login, which the Tailscale team looks after, not me. The outside gremlins can knock all they want.
+
+---
+
+## Build it yourself
+
+Here's the whole setup, start to finish.
 
 **What you'll end up with:** A VPS running [Docker](https://docs.docker.com/get-docker/) containers behind Caddy, fully locked to a Tailscale network, with automatic TLS and zero port-forwarding required.
 
@@ -22,7 +69,7 @@ Then I found a better way. Put everything behind [Tailscale](https://tailscale.c
 
 ## Step 1: Provision the VPS
 
-Any cheap VPS will do. I use [RackNerd](https://www.racknerd.com/). My box is about $100 a year for 6 vCPU and 8GB RAM, which is more than this stack needs because my agents live there too. A smaller plan will handle everything in this tutorial.
+Any cheap VPS will do. I use [RackNerd](https://www.racknerd.com/). My box is under $100 a year for 6 vCPU and 8GB RAM, which is more than this stack needs because my agents live there too. A smaller plan will handle everything in this post.
 
 Once it's up, harden it before you do anything else. Yes, this is the boring part. Do it anyway.
 
@@ -271,14 +318,14 @@ It handles security fixes automatically, but it's not a reason to never log in a
 
 ### Do your homework on your provider
 
-Everything in this tutorial happens inside the server. Your VPS provider usually offers protection outside it too, and it's worth half an hour to see what yours has. Depending on the provider, look for:
+Everything in this post happens inside the server. Your VPS provider usually offers protection outside it too, and it's worth half an hour to see what yours has. Depending on the provider, look for:
 
 - **Two-factor authentication on the control panel.** If someone gets into your provider account, they can reset your root password or rebuild the server from the outside, and none of your SSH hardening will matter.
 - **A network or cloud firewall.** It blocks traffic before it ever reaches your server, which is a nice second layer on top of UFW.
 - **Snapshots or backups.** Some plans include them and some charge extra. Either way, know whether you have them *before* you need one.
 - **DDoS protection, rescue mode or console access, and security notices.** Find out what's included and turn on alerts so you hear about problems from them first.
 
-Every provider offers something different, so read through their docs and your control panel instead of assuming. The tutorial gets you a locked-down server. Keeping it locked down is an ongoing job, and it's yours.
+Every provider offers something different, so read through their docs and your control panel instead of assuming. This setup gets you a locked-down server. Keeping it locked down is an ongoing job, and it's yours.
 
 ---
 
@@ -299,7 +346,7 @@ Start your work inside it, press `Ctrl+B` then `D` to detach, and close the lapt
 tmux attach -t main
 ```
 
-That's the same trick that makes always-on agent setups like [OpenClaw](https://openclaw.ai) and [Hermes](https://hermes-agent.nousresearch.com) appealing: an agent that lives on a machine that never sleeps, so you can check in on it from anywhere. A cheap VPS, Tailscale and tmux get you most of that feeling with tools you already understand. I go deeper on running Claude Code this way in the [Claude + Obsidian tutorial](/blog/claude-obsidian-workflow-tutorial).
+That's the same trick that makes always-on agent setups like [OpenClaw](https://openclaw.ai) and [Hermes](https://hermes-agent.nousresearch.com) appealing: an agent that lives on a machine that never sleeps, so you can check in on it from anywhere. A cheap VPS, Tailscale and tmux get you most of that feeling with tools you already understand. I go deeper on running Claude Code this way in the [Claude + Obsidian post](/blog/claude-obsidian-workflow).
 
 ---
 
@@ -320,6 +367,20 @@ SSH access: `ssh youruser@your-machine.your-tailnet.ts.net` or `ssh youruser@YOU
 **TLS not working:** Make sure Tailscale MagicDNS is enabled in the admin console and that the hostname in your Caddyfile matches exactly. Caddy can't provision a cert for a hostname Tailscale doesn't recognize.
 
 **Port exposed publicly:** Check your `ports` binding in the compose file. It must be `tailscale-ip:host-port:container-port`. If you see `host-port:container-port` without the IP prefix, it's bound to `0.0.0.0` and the whole internet can knock.
+
+---
+
+## What I'd do differently
+
+The biggest one: I'd start with Tailscale on day one. The SSH key approach worked, but it didn't grow well, and adding each new device was a manual chore I kept putting off.
+
+I'd also resist the urge to run everything. The most useful services aren't the flashiest ones. Uptime Kuma and n8n get used every day. The fun experiment containers mostly sit there collecting dust.
+
+## What's next
+
+An OptiPlex 7070 Micro running CachyOS is in the plan for a garage workstation. Whether that eventually turns into a little Kubernetes cluster across the VPS and the garage box is still an open question. The idea is tempting. The complexity, less so.
+
+For now, though, the stack is boring in the best possible way. Everything just runs.
 
 ---
 

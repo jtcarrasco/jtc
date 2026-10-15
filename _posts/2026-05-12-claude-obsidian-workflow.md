@@ -1,18 +1,90 @@
 ---
 layout: post
-title: "How to Use Claude Code With Obsidian as Your PKM and AI Workspace"
-description: "Step-by-step: give Claude Code access to your Obsidian vault, persist context with CLAUDE.md and memory files, and trigger agents from your phone."
-date: 2026-05-21 09:00:00 -0800
+title: "Claude Code Is My Collaborator. Obsidian Is Our Shared Brain."
+description: "How I use CLAUDE.md files, a memory system and vault-based agents to give Claude persistent context, plus the step-by-step setup to build your own."
+date: 2026-05-12 09:00:00 -0700
 published: true
 image: '/assets/blog/claude-obsidian-workflow-tutorial.webp'
-tags: [ai, tutorial, claude, obsidian, pkm]
+tags: [ai, tutorial, claude, obsidian, pkm, automation]
 ---
+Most people use AI the way they use a search engine. Ask a question, get an answer, close the tab. I use Claude Code differently. For me it's a long-term collaborator that knows my systems, my projects and how I like to work. And the thing that makes that possible is [Obsidian](https://obsidian.md).
 
-*This is the step-by-step version. For the why behind it, read [the overview](/blog/claude-obsidian-workflow).*
+This is the post I wish I'd had when I started building this setup. It covers how it works, why I built it this way and what it actually looks like day to day.
+
+## The problem with an AI that forgets everything
+
+Every new conversation with an AI starts from zero. You explain your setup again, your preferences again, what you tried last time and what you're trying to do now. Even with the built-in memory features, what it remembers is pretty thin.
+
+That's fine for one-off questions. It's not fine if you want help running real ongoing stuff: agents on a schedule, a blog that's half written, a homelab that needs looking after. For that, it has to remember.
 
 Every time I started a [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview) session, I spent the first five minutes re-explaining who I am, what I'm working on and why my folders look the way they do. Same speech, every single time. It was like onboarding a contractor who shows up with no memory of the last twelve times they were here.
 
 The fix was almost embarrassingly simple. Give Claude a file to read.
+
+## Obsidian as the memory
+
+My Obsidian vault syncs to all my devices with [Syncthing](https://syncthing.net). It uses a PARA-style layout: Inbox, Projects, Areas, Resources and Archive.
+
+Claude Code can read and write to that vault. So:
+
+- When I ask Claude to draft a blog post, it reads my other drafts, checks the content plan and saves the draft in the right folder.
+- When we set up a new agent, Claude reads the agent docs, writes the agent's CLAUDE.md and updates the shared index.
+- When I ask where a project stands, Claude reads the project file and gives me a real answer instead of a made-up one.
+
+The vault isn't just my notes anymore. It's our shared working memory.
+
+## CLAUDE.md files: instructions that stick
+
+The most important piece is a file called `CLAUDE.md`. Claude Code reads it at the start of every session, and it holds everything Claude needs to know: how my folders are laid out, my conventions, what to never do and what to always do.
+
+I have a global `CLAUDE.md` in my home folder and a project-specific one in each agent's folder. When Claude starts a session in the `wiki_agent/` folder, it reads that agent's CLAUDE.md and knows exactly what the agent does, which files it touches and what rules it follows, without me saying a word.
+
+That's the difference between a tool and a collaborator. A tool needs instructions every time. A collaborator reads the brief.
+
+## Memory files: context that carries forward
+
+On top of CLAUDE.md, there's a memory system: markdown files that Claude writes and reads from one session to the next. My preferences, where projects stand, feedback from past sessions and reference info.
+
+When I told Claude I always want a dry run before it bulk-deletes email, that went into a memory file. Now it just happens, every time, without me asking.
+
+That's what makes this feel different from a normal AI chat. It adapts, and it keeps adapting.
+
+## The agent layer
+
+The deeper part is the agents. I have several Claude Code agents running on my VPS with no one at the keyboard:
+
+- **job_agent**: searches job boards on a schedule and writes reports to the vault
+- **wiki_agent**: turns articles and YouTube videos into a structured wiki
+- **events_agent**: finds tech meetups and conferences once a month
+
+Each agent has a `CLAUDE.md` (its instructions) and a `task-list.md` (its to-do list). A bash script I call the dispatcher runs on cron every 5 minutes, looks for trigger tags in the task files and hands the work to Claude Code when it finds one.
+
+So the control panel is a markdown file. I edit it on my phone in Obsidian, [Syncthing](https://syncthing.net) pushes it to the VPS, Claude picks it up within 5 minutes and does the job, and the results sync right back to my phone. Heck, I can kick off an agent from the couch.
+
+## The phone layer: Discord and Remote Control
+
+For back-and-forth work while on the go, I use a Discord channel. Claude Code watches it and handles file changes, web searches, calendar events and whatever else I throw at it. It's the conversation layer sitting on top of the files.
+
+When I want more than a chat window, I use Claude Code's [Remote Control](https://code.claude.com/docs/en/remote-control). It puts the actual session running on my VPS in the Claude app on my phone, so I can pick up exactly where I left off at my desk. Discord is great for quick asks. Remote Control is for when I want the whole workbench in my pocket.
+
+The split matters. Discord and Remote Control are for talking, Obsidian is for keeping track. The work happens in files. The phone is just how I start it.
+
+## What it actually looks like
+
+Here's one day as an example. We set up a Drupal sandbox, organized a book list, drafted a uses page and a bookshelf page, ran the events agent to find local meetups, built a blog content plan and wrote five posts. Everything landed in the vault. Everything is saved. The next session picks up right where we left off.
+
+That's a lot of ground for one afternoon. The speed comes from never re-explaining anything. Claude already knows where things live, what my conventions are and what we're building.
+
+---
+
+## Build it yourself
+
+It isn't magic. It takes some work up front:
+- A reasonably organized vault with a clear folder structure
+- Well-written CLAUDE.md files that tell Claude what it needs to know
+- Being OK with an AI writing to your files (you can always review the changes)
+
+Once that's in place, though, it snowballs. Every session adds to what Claude knows. Every new agent slots right in. The more you use it, the more useful it gets. [Cory Doctorow](https://pluralistic.net/) would call that being a centaur instead of a reverse centaur: I do the steering, and the machine does the legwork.
 
 **What you'll end up with:** Claude Code with read/write access to your [Obsidian](https://obsidian.md/) vault, CLAUDE.md files that persist instructions across sessions, a memory system that carries behavioral context forward, and agent tasks triggered by editing markdown files on your phone.
 
@@ -20,7 +92,7 @@ The fix was almost embarrassingly simple. Give Claude a file to read.
 
 ---
 
-**A note on PARA:** This tutorial uses the PARA folder structure for organizing the vault. PARA stands for **Projects, Areas, Resources, Archive**: four top-level folders that cover everything you're working on or referencing. Projects are active work with a finish line. Areas are ongoing responsibilities with no end date. Resources are reference material. Archive is everything inactive. You don't have to use PARA, but the path examples throughout (`Projects/Agents/`, `Resources/`, etc.) assume it. Adapt to whatever structure you use. If you're new to it, [ObsiBrain's PARA overview](https://www.obsibrain.com/docs/features/p.a.r.a-folder-structure) is a good primer.
+**A note on PARA:** This guide uses the PARA folder structure for organizing the vault. PARA stands for **Projects, Areas, Resources, Archive**: four top-level folders that cover everything you're working on or referencing. Projects are active work with a finish line. Areas are ongoing responsibilities with no end date. Resources are reference material. Archive is everything inactive. You don't have to use PARA, but the path examples throughout (`Projects/Agents/`, `Resources/`, etc.) assume it. Adapt to whatever structure you use. If you're new to it, [ObsiBrain's PARA overview](https://www.obsibrain.com/docs/features/p.a.r.a-folder-structure) is a good primer.
 
 ---
 
