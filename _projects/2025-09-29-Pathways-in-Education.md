@@ -13,9 +13,9 @@ category: websites
 ### Role & Approach
 At [Skyrocket Education](https://www.skyrocket-ed.com/), I led the web development and production coordination for the Pathways in Education network. My approach focused on three key goals:
 
-- **Enhanced User Experience** — I prioritized intuitive navigation and accessibility, ensuring that students, families, and stakeholders could easily find essential information while the sites continued to meet rigorous accountability standards.
-- **Regional Customization with Brand Unity** — Each regional site was tailored to reflect its local community and specific needs, while maintaining consistent brand elements that reinforced Pathways in Education's national identity and values.
-- **Streamlined Enrollment Process** — I redesigned the enrollment experience to remove friction points and simplify the application journey, making it easier for prospective students to take action and complete their registration.
+- **Enhanced User Experience**: I prioritized intuitive navigation and accessibility, ensuring that students, families, and stakeholders could easily find essential information while the sites continued to meet rigorous accountability standards.
+- **Regional Customization with Brand Unity**: Each regional site was tailored to reflect its local community and specific needs, while maintaining consistent brand elements that reinforced Pathways in Education's national identity and values.
+- **Streamlined Enrollment Process**: I redesigned the enrollment experience to remove friction points and simplify the application journey, making it easier for prospective students to take action and complete their registration.
 
 The result was a scalable digital ecosystem that serves diverse communities across the country while maintaining a unified brand presence and driving meaningful enrollment engagement.
 

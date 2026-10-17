@@ -13,6 +13,6 @@ category: websites
 ### Role & Approach
 At [Edlio](https://www.edlio.com), I collaborated with a project manager and designer to deliver [Urban Discovery Schools' digital platform](https://urbansd.com), serving as the lead developer responsible for the site's technical implementation. The project centered on communicating the school's distinctive partnership with UC San Diego and its innovative approach to education.
 
-The website needed to serve multiple audiences — prospective families exploring enrollment, current parents staying informed, and community partners understanding the school's mission. Built on Edlio's K-12 platform, the site integrated CMS tools, mobile accessibility, and ADA-compliant design to ensure a seamless experience for all users.
+The website needed to serve multiple audiences: prospective families exploring enrollment, current parents staying informed, and community partners understanding the school's mission. Built on Edlio's K-12 platform, the site integrated CMS tools, mobile accessibility, and ADA-compliant design to ensure a seamless experience for all users.
 
 Working alongside the project manager, I helped manage the project timeline and served as the technical liaison between the school and our internal teams, while collaborating closely with the designer to highlight Urban Discovery's STEAM curriculum and university partnership in a way that resonated across all audiences.

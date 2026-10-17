@@ -11,7 +11,7 @@ category: websites
 [Options for Youth (OFY)](https://www.ofy.org/) and [Opportunities for Learning (OFL)](https://www.oflschools.org/) are tuition-free public charter school networks serving students across California. Unlike traditional charter school websites that prioritize board agendas and state compliance documentation, both organizations needed student-focused platforms designed to showcase their programs and drive enrollment.
 
 ### Role & Approach
-At [Skyrocket Education](https://www.skyrocket-ed.com), I led the web development and production coordination for over 17 regional campus websites across both the OFY and OFL networks. In collaboration with the brand content marketing specialist, I developed a comprehensive site template and unified messaging framework — a scalable solution designed to maintain brand consistency while accommodating the unique needs of each regional campus.
+At [Skyrocket Education](https://www.skyrocket-ed.com), I led the web development and production coordination for over 17 regional campus websites across both the OFY and OFL networks. In collaboration with the brand content marketing specialist, I developed a comprehensive site template and unified messaging framework, a scalable solution designed to maintain brand consistency while accommodating the unique needs of each regional campus.
 
 The project required close collaboration with school principals and administrators to gather and curate site-specific content tailored to each regional campus. Working alongside the Skyrocket Marketing team and Propel enrollment department, I designed a user experience that seamlessly connected prospective students with relevant regional information while establishing clear, intuitive pathways to enrollment.
 

@@ -11,53 +11,53 @@ The tools, hardware, and software I use day-to-day. Inspired by [uses.tech](http
 ## Hardware
 
 ### Machines
-- [**MacBook Air**](https://www.amazon.com/dp/B0GR1BY1SZ?tag=jtcarrascoser-20) — primary dev machine
-- **[Arch Linux desktop](https://www.amazon.com/dp/B08WNF8FP6?tag=jtcarrascoser-20)** (Optiplex 7060 Micro) — custom vanilla Arch + Hyprland (more to come!)
-- [**RackNerd VPS**](https://my.racknerd.com/aff.php?aff=21044) — Ubuntu 24.04 LTS, always-on, runs all homelab services
-- i7 3080 GPU "gaming" Machine -- now used as a [Proxmox](https://www.proxmox.com/) server
-- [**Synology NAS**](https://www.amazon.com/dp/B0C8S7SF4B?tag=jtcarrascoser-20) — For Storage
-- [**iPhone 16**](https://www.amazon.com/dp/B0DHJH2GZL?tag=jtcarrascoser-20) -- Mobile
+- [**MacBook Air**](https://www.amazon.com/dp/B0GR1BY1SZ?tag=jtcarrascoser-20): primary dev machine
+- **[Arch Linux desktop](https://www.amazon.com/dp/B08WNF8FP6?tag=jtcarrascoser-20)** (Optiplex 7060 Micro): custom vanilla Arch + Hyprland (more to come!)
+- [**RackNerd VPS**](https://my.racknerd.com/aff.php?aff=21044): Ubuntu 24.04 LTS, always-on, runs all homelab services
+- i7 3080 GPU "gaming" machine, now used as a [Proxmox](https://www.proxmox.com/) server
+- [**Synology NAS**](https://www.amazon.com/dp/B0C8S7SF4B?tag=jtcarrascoser-20): storage
+- [**iPhone 16**](https://www.amazon.com/dp/B0DHJH2GZL?tag=jtcarrascoser-20): mobile
 
 ## Terminal + Editor
 
-- **[Ghostty](https://ghostty.org/)** — terminal. Fast, GPU-accelerated, native on both platforms. Same config synced across Mac and Linux via dotfiles.
-- **[tmux](https://github.com/tmux/tmux)** — session management. Never lose a session again.
-- **[zsh](https://www.zsh.org/)** with **[Starship](https://starship.rs/)** prompt — minimal, informative
-- **[Yazi](https://yazi-rs.github.io/)** — terminal file manager, replaces most of what I used to do with Finder
-- **[Zed](https://zed.dev/)** — my main IDE. Fast, and its remote development mode lets me edit projects right on the VPS.
-- **[Neovim](https://neovim.io/)** — for quick edits in the terminal. Still learning, and slowly getting faster at it.
-- **[Claude Code](https://claude.ai/code)** — AI coding assistant. I use it every day. More than just autocomplete — it runs agents, writes files, hits APIs.
+- **[Ghostty](https://ghostty.org/)**: terminal. Fast, GPU-accelerated, native on both platforms. Same config synced across Mac and Linux via dotfiles.
+- **[tmux](https://github.com/tmux/tmux)**: session management. Never lose a session again.
+- **[zsh](https://www.zsh.org/)** with **[Starship](https://starship.rs/)** prompt: minimal and informative
+- **[Yazi](https://yazi-rs.github.io/)**: terminal file manager, replaces most of what I used to do with Finder
+- **[Zed](https://zed.dev/)**: my main IDE. Fast, and its remote development mode lets me edit projects right on the VPS.
+- **[Neovim](https://neovim.io/)**: for quick edits in the terminal. Still learning, and slowly getting faster at it.
+- **[Claude Code](https://claude.ai/code)**: AI coding assistant. I use it every day. It's more than autocomplete: it runs agents, writes files, and calls APIs.
 
 ## Networking and Infrastructure
 
-- **[Tailscale](https://tailscale.com/)** — private mesh VPN across all devices. Every machine I own is on the same private network, always. No port forwarding, no dynamic DNS.
-- **[Caddy](https://caddyserver.com/)** — reverse proxy and automatic TLS on the VPS. All services HTTPS-only, Tailscale-only.
-- **[Docker](https://www.docker.com/)** — all VPS services run in containers
-- **[Syncthing](https://syncthing.net/)** — file sync over Tailscale between VPS, NAS, Mac, and Arch box. Obsidian vault stays in sync across everything.
-- **[Lando](https://lando.dev/)** — local WordPress and Drupal dev environments. Docker-based, one command to spin up a site.
+- **[Tailscale](https://tailscale.com/)**: private mesh VPN across all devices. Every machine I own is on the same private network, always. No port forwarding, no dynamic DNS.
+- **[Caddy](https://caddyserver.com/)**: reverse proxy and automatic TLS on the VPS. All services HTTPS-only, Tailscale-only.
+- **[Docker](https://www.docker.com/)**: all VPS services run in containers
+- **[Syncthing](https://syncthing.net/)**: file sync over Tailscale between VPS, NAS, Mac, and Arch box. Obsidian vault stays in sync across everything.
+- **[Lando](https://lando.dev/)**: local WordPress and Drupal dev environments. Docker-based, one command to spin up a site.
 
 ## Self-Hosted Services
 
 All running on the VPS, Tailscale-only access:
 
-- **[n8n](https://n8n.io/)** — workflow automation. Powers my daily briefings, job application follow-ups, and various API integrations.
-- **[FreshRSS](https://freshrss.org/)** — RSS aggregator for job boards and tech feeds
-- **[MainWP](https://mainwp.com/)** — manages ~60 client WordPress sites from one dashboard
-- **[Uptime Kuma](https://github.com/louislam/uptime-kuma)** — site monitoring for client sites
-- **[Glance](https://github.com/glanceapp/glance)** — homelab dashboard. One tab, everything I need to see.
-- **[Watchtower](https://containrrr.dev/watchtower/)** — auto-updates containers overnight
+- **[n8n](https://n8n.io/)**: workflow automation. Powers my daily briefings, job application follow-ups, and various API integrations.
+- **[FreshRSS](https://freshrss.org/)**: RSS aggregator for job boards and tech feeds
+- **[MainWP](https://mainwp.com/)**: manages ~60 client WordPress sites from one dashboard
+- **[Uptime Kuma](https://github.com/louislam/uptime-kuma)**: site monitoring for client sites
+- **[Glance](https://github.com/glanceapp/glance)**: homelab dashboard. One tab, everything I need to see.
+- **[Watchtower](https://containrrr.dev/watchtower/)**: auto-updates containers overnight
 
 ## AI and Automation
 
-- **[Claude Code](https://claude.ai/code)** — Anthropic's CLI. I use it to build and run agents that run on my VPS: a job search agent, a knowledge base builder, an event discovery agent.
-- **[Claude API](https://www.anthropic.com/api)** — for programmatic AI integration in web projects
-- **[n8n](https://n8n.io/)** — wires everything together. Gmail, Discord, Todoist, calendar, external APIs.
+- **[Claude Code](https://claude.ai/code)**: Anthropic's CLI. I use it to build and run agents that run on my VPS: a job search agent, a knowledge base builder, an event discovery agent.
+- **[Claude API](https://www.anthropic.com/api)**: for programmatic AI integration in web projects
+- **[n8n](https://n8n.io/)**: wires everything together. Gmail, Discord, Todoist, calendar, external APIs.
 
 ## Productivity and PKM
 
-- **[Obsidian](https://obsidian.md/)** — personal knowledge management. Vault synced across all devices via Syncthing. Where my notes, blog drafts, agent task files, and research all live.
-- **[Todoist](https://todoist.com/)** — task management. Integrates with n8n for automated task creation from email.
-- **[Espanso](https://espanso.org/)** — text expander. Snippets for code, email templates, repeated strings.
+- **[Obsidian](https://obsidian.md/)**: personal knowledge management. Vault synced across all devices via Syncthing. Where my notes, blog drafts, agent task files, and research all live.
+- **[Todoist](https://todoist.com/)**: task management. Integrates with n8n for automated task creation from email.
+- **[Espanso](https://espanso.org/)**: text expander. Snippets for code, email templates, repeated strings.
 
 ## Desk Setup
 
@@ -73,4 +73,4 @@ All running on the VPS, Tailscale-only access:
 
 ---
 
-*As an Amazon Associate I earn from qualifying purchases — some links above may earn a small commission at no extra cost to you.*
+*As an Amazon Associate I earn from qualifying purchases. Some links above may earn a small commission at no extra cost to you.*

@@ -170,8 +170,6 @@ footer_menu__settings:
       title: 'About'
     - url: '/contact/'
       title: 'Contact'
-    - url: '/privacy/'
-      title: 'Privacy'
 
 
 #-------------------------------

@@ -13,7 +13,7 @@ Books I've read, with notes. Organized by year.
   <span class="book-year-heading__count">19 books read</span>
 </div>
 
-**Currently reading:** [Ham on Rye](https://www.amazon.com/s?k=Ham+on+Rye+Charles+Bukowski&tag=jtcarrascoser-20) — Charles Bukowski *(Fiction)* &nbsp;·&nbsp; [Overclocked](https://www.amazon.com/s?k=Overclocked+Cory+Doctorow&tag=jtcarrascoser-20) — Cory Doctorow *(Sci-fi short stories)*
+**Currently reading:** [Ham on Rye](https://www.amazon.com/s?k=Ham+on+Rye+Charles+Bukowski&tag=jtcarrascoser-20) by Charles Bukowski *(Fiction)* &nbsp;·&nbsp; [Overclocked](https://www.amazon.com/s?k=Overclocked+Cory+Doctorow&tag=jtcarrascoser-20) by Cory Doctorow *(Sci-fi short stories)*
 
 <div class="book-grid">
 
@@ -71,7 +71,7 @@ Books I've read, with notes. Organized by year.
     <a class="book-card__cover" href="https://www.amazon.com/s?k=A+Masterpiece+in+Disarray+David+Lynch%27s+Dune+Max+Evry&tag=jtcarrascoser-20">
       <img src="/assets/books/a-masterpiece-in-disarray.jpg" alt="A Masterpiece in Disarray cover" loading="lazy">
     </a>
-    <a class="book-card__title" href="https://www.amazon.com/s?k=A+Masterpiece+in+Disarray+David+Lynch%27s+Dune+Max+Evry&tag=jtcarrascoser-20">A Masterpiece in Disarray: David Lynch's Dune — An Oral History</a>
+    <a class="book-card__title" href="https://www.amazon.com/s?k=A+Masterpiece+in+Disarray+David+Lynch%27s+Dune+Max+Evry&tag=jtcarrascoser-20">A Masterpiece in Disarray: David Lynch's Dune, An Oral History</a>
     <span class="book-card__author">Max Evry</span>
     <span class="book-card__rating">★★★★☆</span>
     <span class="book-card__genre">Film History</span>
@@ -211,4 +211,4 @@ Books I've read, with notes. Organized by year.
 
 ---
 
-*As an Amazon Associate I earn from qualifying purchases — links above may earn a small commission at no extra cost to you.*
+*As an Amazon Associate I earn from qualifying purchases. Links above may earn a small commission at no extra cost to you.*
