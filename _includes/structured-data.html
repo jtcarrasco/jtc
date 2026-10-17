@@ -1,0 +1,41 @@
+{% assign person_url = '/about/' | absolute_url %}
+{% if page.url == "/" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": {{ site.data.settings.title | jsonify }},
+      "url": {{ '/' | absolute_url | jsonify }},
+      "description": {{ site.data.settings.description | jsonify }}
+    },
+    {
+      "@type": "Person",
+      "@id": {{ person_url | append: '#person' | jsonify }},
+      "name": "Jason Carrasco",
+      "url": {{ '/' | absolute_url | jsonify }},
+      "image": {{ '/assets/profile/jtc_profile_pic.webp' | absolute_url | jsonify }},
+      "jobTitle": "Web Developer and Project Manager",
+      "address": { "@type": "PostalAddress", "addressLocality": "Redondo Beach", "addressRegion": "CA", "addressCountry": "US" },
+      "sameAs": [{% for social in site.data.settings.social %}{{ social.link | jsonify }}{% unless forloop.last %}, {% endunless %}{% endfor %}]
+    }
+  ]
+}
+</script>
+{% elsif page.collection == "posts" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ page.title | jsonify }},
+  "description": {{ page.description | default: page.excerpt | strip_html | strip_newlines | truncate: 160 | jsonify }},
+  "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+  "dateModified": {{ page.last_modified_at | default: page.date | date_to_xmlschema | jsonify }},
+  {% if page.image %}"image": {{ page.image | absolute_url | jsonify }},{% endif %}
+  "url": {{ page.url | absolute_url | jsonify }},
+  "mainEntityOfPage": {{ page.url | absolute_url | jsonify }},
+  "author": { "@type": "Person", "name": "Jason Carrasco", "url": {{ '/' | absolute_url | jsonify }} }
+}
+</script>
+{% endif %}

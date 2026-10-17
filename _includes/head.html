@@ -7,6 +7,9 @@
   <meta name='description' content='{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.data.settings.description }}{% endif %}'>
 
   <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}">
+  <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
+  <meta name="theme-color" content="#2959aa">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.data.settings.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
@@ -49,6 +52,8 @@
   </script>
 
   <link rel="stylesheet" href="{{ '/css/main.css' | relative_url }}">
+
+  {% include structured-data.html %}
 
   <script defer src="https://analytics.jtcarrasco.com/script.js" data-website-id="fa0186be-5cc3-4783-9f18-18c9fea0555b"></script>
 </head>
