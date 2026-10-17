@@ -1,4 +1,5 @@
 ---
+description: "Digital overhaul for Pathways in Education, a charter school network with campuses from Idaho to Louisiana."
 title: Pathways in Education
 date: 2025-09-29 12:00:00 +0300
 subtitle: Web Design | Development | Project Management

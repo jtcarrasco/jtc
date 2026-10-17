@@ -1,4 +1,5 @@
 ---
+description: "Student-focused regional websites for OFY and OFL charter schools across California, built to showcase local campuses."
 title: Regional Websites for OFY and OFL
 date: 2025-09-29 12:00:00 +0300
 subtitle: Web Design | Development | Project Management

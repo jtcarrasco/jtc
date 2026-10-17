@@ -1,4 +1,5 @@
 ---
+description: "Website work for Lumin Schools, a nonprofit school network in Dallas, Texas serving underserved communities."
 title: Lumin Schools
 date: 2022-03-01 12:00:00 +0300
 subtitle: Web Development | Project Coordination

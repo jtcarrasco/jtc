@@ -1,4 +1,5 @@
 ---
+description: "About Jason Carrasco: web developer and project manager with 15 years and 350+ sites, now building AI automation in the South Bay, LA."
 layout: page
 title: About
 permalink: /about/

@@ -1,4 +1,5 @@
 ---
+description: "Website for Equity Summit, an annual online conference for educators and advocates working on equity in education."
 title: Equity Summit Website
 date: 2025-09-29 12:00:00 +0300
 subtitle: Web Design | Development | Project Management

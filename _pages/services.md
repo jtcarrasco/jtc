@@ -1,4 +1,5 @@
 ---
+description: "One-on-one tech training and consulting for individuals and small businesses in the Beach Cities and South Bay, LA."
 layout: page
 title: Services
 permalink: /services/

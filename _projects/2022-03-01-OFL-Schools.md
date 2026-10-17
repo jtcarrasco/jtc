@@ -1,4 +1,5 @@
 ---
+description: "Website work for Opportunities For Learning, a network of tuition-free public charter schools across California."
 title: Opportunities For Learning
 date: 2022-03-01 12:00:00 +0300
 subtitle: Web Development | Production Management

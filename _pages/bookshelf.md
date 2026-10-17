@@ -1,4 +1,5 @@
 ---
+description: "Books Jason Carrasco has read, with notes, organized by year."
 layout: page
 title: Bookshelf
 permalink: /bookshelf/

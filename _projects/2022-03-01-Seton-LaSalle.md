@@ -1,4 +1,5 @@
 ---
+description: "Website project for Seton LaSalle Catholic High School in Pittsburgh, Pennsylvania."
 title: Seton LaSalle Catholic High School
 date: 2022-03-01 12:00:00 +0300
 subtitle: Web Development | Project Coordination

@@ -1,4 +1,5 @@
 ---
+description: "Website redesign for El Rancho Unified, serving about 8,500 students across 15 schools in Pico Rivera, Los Angeles County."
 title: El Rancho Unified School District
 date: 2022-03-01 12:00:00 +0300
 subtitle: Web Development | Project Coordination

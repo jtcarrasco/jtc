@@ -1,4 +1,5 @@
 ---
+description: "Website project for Urban Discovery Schools, a project-based STEAM charter in San Diego partnered with UC San Diego."
 title: Urban Discovery Schools
 date: 2022-03-01 12:00:00 +0300
 subtitle: Web Development | Project Coordination

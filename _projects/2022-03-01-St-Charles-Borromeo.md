@@ -1,4 +1,5 @@
 ---
+description: "Website project for St. Charles Borromeo Parish School, a TK-8 Catholic school in the Los Angeles area."
 title: St. Charles Borromeo Parish School
 date: 2022-03-01 12:00:00 +0300
 subtitle: Web Development | Project Coordination

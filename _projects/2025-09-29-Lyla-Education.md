@@ -1,4 +1,5 @@
 ---
+description: "Website for Lyla Education, an EdTech platform building learning apps for diverse learning styles, on paper and digital."
 title: Lyla Education
 date: 2025-09-29 12:00:00 +0300
 subtitle: Web Design | Development | Project Management

@@ -1,4 +1,5 @@
 ---
+description: "Website design, development and project management for DAS Beer Garden, a craft beer taproom and restaurant in Jupiter, Florida."
 title: DAS Beer Garden
 date: 2022-03-01 12:00:00 +0300
 subtitle: Web Design | Development | Project Management

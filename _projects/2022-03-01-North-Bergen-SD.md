@@ -1,4 +1,5 @@
 ---
+description: "Website project for North Bergen School District in New Jersey, serving over 7,000 students across multiple schools."
 title: North Bergen School District
 date: 2022-03-01 12:00:00 +0300
 subtitle: Web Development | Project Coordination

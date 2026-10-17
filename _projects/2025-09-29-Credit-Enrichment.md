@@ -1,4 +1,5 @@
 ---
+description: "Website for Credit Enrichment, an OFY and OFL program that helps high school students recover or accelerate credits."
 title: Credit Enrichment
 date: 2025-09-29 12:00:00 +0300
 subtitle: Web Design | Development | Project Management

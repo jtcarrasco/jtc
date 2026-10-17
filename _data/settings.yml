@@ -1,8 +1,9 @@
 #-------------------------------
 # Site Settings
-title: Jtcarrasco
+title: Jason Carrasco
 logo: '/assets/logo_header.png'
-description: Jtcarrasco | Web Developer + Designer + Pet Wrangler.
+description: Jason Carrasco, web developer and project manager in the South Bay, LA. Portfolio, blog, and tech training for small businesses.
+og_image: '/assets/og-default.jpg'
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
@@ -50,7 +51,7 @@ hero:
 
 #-------------------------------
 # Newsletter
-mailchimp: enable # To enable the mailchimp form, use the value 'enable'. To disable the form, leave the field blank.
+mailchimp: # disabled 2026-10-17: the identifier below was the theme demo list, not ours
 mailchimp__identifier: gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
 mailchimp__input__text: Your email address...
 mailchimp__button__text: Get updates
@@ -184,4 +185,4 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example anvodstu
 
 #-------------------------------
 # Google Analytics
-google-analytics: G-G2Y6EGV8Q6
+google-analytics: # dropped 2026-10-17, Umami (cookieless) covers analytics

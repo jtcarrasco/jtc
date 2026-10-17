@@ -1,4 +1,5 @@
 ---
+description: "The hardware, software and desk setup Jason Carrasco uses day to day."
 layout: page
 title: Uses
 permalink: /uses/

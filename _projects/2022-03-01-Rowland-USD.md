@@ -1,4 +1,5 @@
 ---
+description: "Website project for Rowland Unified, serving over 13,000 students across 18 schools in the San Gabriel Valley."
 title: Rowland Unified School District
 date: 2022-03-01 12:00:00 +0300
 subtitle: Web Development | Project Coordination
