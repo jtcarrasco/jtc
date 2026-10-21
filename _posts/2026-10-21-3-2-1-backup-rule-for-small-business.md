@@ -2,8 +2,8 @@
 layout: post
 title: "The 3-2-1 Backup Rule: How to Actually Protect Your Business's Files"
 description: "The simple backup rule photographers have trusted for years, what it looks like for a small business, and the one habit that keeps ransomware from taking your backups too."
-date: 2026-10-21 09:00:00 -0700
-published: false
+date: 2026-10-21 08:00:00 -0700
+published: true
 image: /assets/blog/3-2-1-backup-rule-for-small-business.webp
 tags: [tech-training, backup, security, small-business, beginner]
 ---
