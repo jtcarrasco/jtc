@@ -3,7 +3,7 @@ layout: post
 title: "Is Your Website Quietly Paying for Bots?"
 description: "Bots now make up a big share of website traffic, and some of them cost you money. How to tell the helpful ones from the expensive ones, and what to do about it this week."
 date: 2026-10-23 09:00:00 -0700
-published: false
+published: true
 image: /assets/blog/is-your-website-paying-for-bots.webp
 tags: [tech-training, security, web-dev, wordpress, small-business, beginner]
 ---
