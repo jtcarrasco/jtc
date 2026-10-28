@@ -82,28 +82,46 @@
 .tns-nav {
   position: absolute;
   left: 50%;
-  bottom: 100px;
+  bottom: 90px;
   transform: translateX(-50%);
   display: flex;
 
+  // 24px tap target around the 20x4 dot
   button {
-    width: 20px;
-    height: 4px;
-    margin: 0 4px;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin: 0 2px;
+    padding: 0;
     border: none;
     outline: none;
-    border-radius: 2px;
     cursor: pointer;
     opacity: .2;
-    background-color: var(--heading-font-color);
+    background: none;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 2px;
+      right: 2px;
+      height: 4px;
+      transform: translateY(-50%);
+      border-radius: 2px;
+      background-color: var(--heading-font-color);
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--heading-font-color);
+      outline-offset: 2px;
+    }
   }
 
   .tns-nav-active {
     opacity: 1;
-    background-color: var(--heading-font-color);
   }
 
   @media only screen and (max-width: $desktop) {
-    bottom: 80px;
+    bottom: 70px;
   }
 }

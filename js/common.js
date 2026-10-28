@@ -135,6 +135,23 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
 
+  // tiny-slider marks off-screen and cloned slides aria-hidden; make them inert too so
+  // their links leave the Tab order, and follow the slider as it moves
+  function syncHiddenSlides() {
+    var slides = document.querySelectorAll(".tns-item");
+    var sync = function (slide) {
+      slide.inert = slide.getAttribute("aria-hidden") === "true";
+    };
+    slides.forEach(sync);
+    var observer = new MutationObserver(function (changes) {
+      changes.forEach(function (change) { sync(change.target); });
+    });
+    slides.forEach(function (slide) {
+      observer.observe(slide, { attributes: true, attributeFilter: ["aria-hidden"] });
+    });
+  }
+
+
   /* ============================
   // Post Hero Carousel
   ============================ */
@@ -153,6 +170,8 @@ document.addEventListener("DOMContentLoaded", function() {
       speed: 500
     });
   }
+
+  syncHiddenSlides();
 
 
   /* =======================
