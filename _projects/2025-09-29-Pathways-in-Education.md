@@ -8,7 +8,7 @@ category: websites
 ---
 
 ## Scope
-[Pathways in Education](https://www.az.pathwaysineducation.org/) is a charter school network with campuses spanning the country from Idaho to Louisiana. The organization required a comprehensive digital transformation that balanced multiple critical objectives: creating user-friendly websites that maintained compliance with district and state documentation requirements while establishing a cohesive brand identity across all regions.
+[Pathways in Education](https://az.pathwaysineducation.org/) is a charter school network with campuses spanning the country from Idaho to Louisiana. The organization required a comprehensive digital transformation that balanced multiple critical objectives: creating user-friendly websites that maintained compliance with district and state documentation requirements while establishing a cohesive brand identity across all regions.
 
 ### Role & Approach
 At [Skyrocket Education](https://www.skyrocket-ed.com/), I led the web development and production coordination for the Pathways in Education network. My approach focused on three key goals:
