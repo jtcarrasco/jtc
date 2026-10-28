@@ -19,7 +19,7 @@ Books I've read, with notes. Organized by year.
 
   <div class="book-card">
     <a class="book-card__cover" href="https://www.amazon.com/s?k=The+Reverse+Centaur%27s+Guide+to+Life+After+AI+Cory+Doctorow&tag=jtcarrascoser-20">
-      <img src="https://covers.openlibrary.org/b/id/15232969-M.jpg" alt="The Reverse Centaur's Guide to Life After AI cover" loading="lazy">
+      <img src="/assets/books/the-reverse-centaur-s-guide-to-life-after-ai.webp" alt="The Reverse Centaur's Guide to Life After AI cover" loading="lazy">
     </a>
     <a class="book-card__title" href="https://www.amazon.com/s?k=The+Reverse+Centaur%27s+Guide+to+Life+After+AI+Cory+Doctorow&tag=jtcarrascoser-20">The Reverse Centaur's Guide to Life After AI</a>
     <span class="book-card__author">Cory Doctorow</span>
@@ -29,7 +29,7 @@ Books I've read, with notes. Organized by year.
 
   <div class="book-card">
     <a class="book-card__cover" href="https://www.amazon.com/s?k=Sonic+Life+Thurston+Moore&tag=jtcarrascoser-20">
-      <img src="https://covers.openlibrary.org/b/id/15092947-M.jpg" alt="Sonic Life cover" loading="lazy">
+      <img src="/assets/books/sonic-life.webp" alt="Sonic Life cover" loading="lazy">
     </a>
     <a class="book-card__title" href="https://www.amazon.com/s?k=Sonic+Life+Thurston+Moore&tag=jtcarrascoser-20">Sonic Life</a>
     <span class="book-card__author">Thurston Moore</span>
@@ -39,7 +39,7 @@ Books I've read, with notes. Organized by year.
 
   <div class="book-card">
     <a class="book-card__cover" href="https://www.amazon.com/s?k=Even+the+Good+Girls+Will+Cry+Melissa+Auf+der+Maur&tag=jtcarrascoser-20">
-      <img src="/assets/books/even-the-good-girls-will-cry.jpg" alt="Even the Good Girls Will Cry cover" loading="lazy">
+      <img src="/assets/books/even-the-good-girls-will-cry.webp" alt="Even the Good Girls Will Cry cover" loading="lazy">
     </a>
     <a class="book-card__title" href="https://www.amazon.com/s?k=Even+the+Good+Girls+Will+Cry+Melissa+Auf+der+Maur&tag=jtcarrascoser-20">Even the Good Girls Will Cry</a>
     <span class="book-card__author">Melissa Auf der Maur</span>
@@ -49,7 +49,7 @@ Books I've read, with notes. Organized by year.
 
   <div class="book-card">
     <a class="book-card__cover" href="https://www.amazon.com/s?k=Norse+Mythology+Neil+Gaiman&tag=jtcarrascoser-20">
-      <img src="https://covers.openlibrary.org/b/id/7898682-M.jpg" alt="Norse Mythology cover" loading="lazy">
+      <img src="/assets/books/norse-mythology.webp" alt="Norse Mythology cover" loading="lazy">
     </a>
     <a class="book-card__title" href="https://www.amazon.com/s?k=Norse+Mythology+Neil+Gaiman&tag=jtcarrascoser-20">Norse Mythology</a>
     <span class="book-card__author">Neil Gaiman</span>
@@ -59,7 +59,7 @@ Books I've read, with notes. Organized by year.
 
   <div class="book-card">
     <a class="book-card__cover" href="https://www.amazon.com/s?k=I%27m+Glad+My+Mom+Died+Jennette+McCurdy&tag=jtcarrascoser-20">
-      <img src="https://covers.openlibrary.org/b/id/12855985-M.jpg" alt="I'm Glad My Mom Died cover" loading="lazy">
+      <img src="/assets/books/i-m-glad-my-mom-died.webp" alt="I'm Glad My Mom Died cover" loading="lazy">
     </a>
     <a class="book-card__title" href="https://www.amazon.com/s?k=I%27m+Glad+My+Mom+Died+Jennette+McCurdy&tag=jtcarrascoser-20">I'm Glad My Mom Died</a>
     <span class="book-card__author">Jennette McCurdy</span>
@@ -69,7 +69,7 @@ Books I've read, with notes. Organized by year.
 
   <div class="book-card">
     <a class="book-card__cover" href="https://www.amazon.com/s?k=A+Masterpiece+in+Disarray+David+Lynch%27s+Dune+Max+Evry&tag=jtcarrascoser-20">
-      <img src="/assets/books/a-masterpiece-in-disarray.jpg" alt="A Masterpiece in Disarray cover" loading="lazy">
+      <img src="/assets/books/a-masterpiece-in-disarray.webp" alt="A Masterpiece in Disarray cover" loading="lazy">
     </a>
     <a class="book-card__title" href="https://www.amazon.com/s?k=A+Masterpiece+in+Disarray+David+Lynch%27s+Dune+Max+Evry&tag=jtcarrascoser-20">A Masterpiece in Disarray: David Lynch's Dune, An Oral History</a>
     <span class="book-card__author">Max Evry</span>
@@ -79,7 +79,7 @@ Books I've read, with notes. Organized by year.
 
   <div class="book-card">
     <a class="book-card__cover" href="https://www.amazon.com/s?k=The+Anxious+Generation+Jonathan+Haidt&tag=jtcarrascoser-20">
-      <img src="https://covers.openlibrary.org/b/id/15104803-M.jpg" alt="The Anxious Generation cover" loading="lazy">
+      <img src="/assets/books/the-anxious-generation.webp" alt="The Anxious Generation cover" loading="lazy">
     </a>
     <a class="book-card__title" href="https://www.amazon.com/s?k=The+Anxious+Generation+Jonathan+Haidt&tag=jtcarrascoser-20">The Anxious Generation</a>
     <span class="book-card__author">Jonathan Haidt</span>
@@ -89,7 +89,7 @@ Books I've read, with notes. Organized by year.
 
   <div class="book-card">
     <a class="book-card__cover" href="https://www.amazon.com/s?k=Leviathan+Wakes+James+S.A.+Corey&tag=jtcarrascoser-20">
-      <img src="https://covers.openlibrary.org/b/id/7314237-M.jpg" alt="Leviathan Wakes cover" loading="lazy">
+      <img src="/assets/books/leviathan-wakes.webp" alt="Leviathan Wakes cover" loading="lazy">
     </a>
     <a class="book-card__title" href="https://www.amazon.com/s?k=Leviathan+Wakes+James+S.A.+Corey&tag=jtcarrascoser-20">Leviathan Wakes</a>
     <span class="book-card__author">James S.A. Corey</span>
@@ -99,7 +99,7 @@ Books I've read, with notes. Organized by year.
 
   <div class="book-card">
     <a class="book-card__cover" href="https://www.amazon.com/s?k=Area+51+Annie+Jacobsen&tag=jtcarrascoser-20">
-      <img src="https://covers.openlibrary.org/b/id/6802935-M.jpg" alt="Area 51 cover" loading="lazy">
+      <img src="/assets/books/area-51.webp" alt="Area 51 cover" loading="lazy">
     </a>
     <a class="book-card__title" href="https://www.amazon.com/s?k=Area+51+Annie+Jacobsen&tag=jtcarrascoser-20">Area 51</a>
     <span class="book-card__author">Annie Jacobsen</span>
@@ -109,7 +109,7 @@ Books I've read, with notes. Organized by year.
 
   <div class="book-card">
     <a class="book-card__cover" href="https://www.amazon.com/s?k=Manhunt+12+Day+Chase+for+Lincoln%27s+Killer+James+L.+Swanson&tag=jtcarrascoser-20">
-      <img src="https://covers.openlibrary.org/b/id/26850-M.jpg" alt="Manhunt cover" loading="lazy">
+      <img src="/assets/books/manhunt.webp" alt="Manhunt cover" loading="lazy">
     </a>
     <a class="book-card__title" href="https://www.amazon.com/s?k=Manhunt+12+Day+Chase+for+Lincoln%27s+Killer+James+L.+Swanson&tag=jtcarrascoser-20">Manhunt: The 12-Day Chase for Lincoln's Killer</a>
     <span class="book-card__author">James L. Swanson</span>
@@ -119,7 +119,7 @@ Books I've read, with notes. Organized by year.
 
   <div class="book-card">
     <a class="book-card__cover" href="https://www.amazon.com/s?k=Hellboy+Vol+1+Seed+of+Destruction+Mike+Mignola&tag=jtcarrascoser-20">
-      <img src="https://covers.openlibrary.org/b/id/6327883-M.jpg" alt="Hellboy Vol. 1 cover" loading="lazy">
+      <img src="/assets/books/hellboy-vol-1.webp" alt="Hellboy Vol. 1 cover" loading="lazy">
     </a>
     <a class="book-card__title" href="https://www.amazon.com/s?k=Hellboy+Vol+1+Seed+of+Destruction+Mike+Mignola&tag=jtcarrascoser-20">Hellboy Vol. 1: Seed of Destruction</a>
     <span class="book-card__author">Mike Mignola</span>
@@ -129,7 +129,7 @@ Books I've read, with notes. Organized by year.
 
   <div class="book-card">
     <a class="book-card__cover" href="https://www.amazon.com/s?k=Careless+People+Sarah+Wynn-Williams&tag=jtcarrascoser-20">
-      <img src="https://covers.openlibrary.org/b/id/14852090-M.jpg" alt="Careless People cover" loading="lazy">
+      <img src="/assets/books/careless-people.webp" alt="Careless People cover" loading="lazy">
     </a>
     <a class="book-card__title" href="https://www.amazon.com/s?k=Careless+People+Sarah+Wynn-Williams&tag=jtcarrascoser-20">Careless People</a>
     <span class="book-card__author">Sarah Wynn-Williams</span>
@@ -139,7 +139,7 @@ Books I've read, with notes. Organized by year.
 
   <div class="book-card">
     <a class="book-card__cover" href="https://www.amazon.com/s?k=Night+People+Mark+Ronson&tag=jtcarrascoser-20">
-      <img src="/assets/books/night-people.jpg" alt="Night People cover" loading="lazy">
+      <img src="/assets/books/night-people.webp" alt="Night People cover" loading="lazy">
     </a>
     <a class="book-card__title" href="https://www.amazon.com/s?k=Night+People+Mark+Ronson&tag=jtcarrascoser-20">Night People</a>
     <span class="book-card__author">Mark Ronson</span>
@@ -149,7 +149,7 @@ Books I've read, with notes. Organized by year.
 
   <div class="book-card">
     <a class="book-card__cover" href="https://www.amazon.com/s?k=Brothers+Alex+Van+Halen&tag=jtcarrascoser-20">
-      <img src="https://covers.openlibrary.org/b/id/14825861-M.jpg" alt="Brothers cover" loading="lazy">
+      <img src="/assets/books/brothers.webp" alt="Brothers cover" loading="lazy">
     </a>
     <a class="book-card__title" href="https://www.amazon.com/s?k=Brothers+Alex+Van+Halen&tag=jtcarrascoser-20">Brothers</a>
     <span class="book-card__author">Alex Van Halen</span>
@@ -169,7 +169,7 @@ Books I've read, with notes. Organized by year.
 
   <div class="book-card">
     <a class="book-card__cover" href="https://www.amazon.com/s?k=Dune+Messiah+Frank+Herbert&tag=jtcarrascoser-20">
-      <img src="https://covers.openlibrary.org/b/id/980253-M.jpg" alt="Dune Messiah cover" loading="lazy">
+      <img src="/assets/books/dune-messiah.webp" alt="Dune Messiah cover" loading="lazy">
     </a>
     <a class="book-card__title" href="https://www.amazon.com/s?k=Dune+Messiah+Frank+Herbert&tag=jtcarrascoser-20">Dune Messiah</a>
     <span class="book-card__author">Frank Herbert</span>
@@ -179,7 +179,7 @@ Books I've read, with notes. Organized by year.
 
   <div class="book-card">
     <a class="book-card__cover" href="https://www.amazon.com/s?k=Blue+Nights+Joan+Didion&tag=jtcarrascoser-20">
-      <img src="https://covers.openlibrary.org/b/id/8272758-M.jpg" alt="Blue Nights cover" loading="lazy">
+      <img src="/assets/books/blue-nights.webp" alt="Blue Nights cover" loading="lazy">
     </a>
     <a class="book-card__title" href="https://www.amazon.com/s?k=Blue+Nights+Joan+Didion&tag=jtcarrascoser-20">Blue Nights</a>
     <span class="book-card__author">Joan Didion</span>
@@ -189,7 +189,7 @@ Books I've read, with notes. Organized by year.
 
   <div class="book-card">
     <a class="book-card__cover" href="https://www.amazon.com/s?k=Neuromancer+William+Gibson&tag=jtcarrascoser-20">
-      <img src="https://covers.openlibrary.org/b/id/283860-M.jpg" alt="Neuromancer cover" loading="lazy">
+      <img src="/assets/books/neuromancer.webp" alt="Neuromancer cover" loading="lazy">
     </a>
     <a class="book-card__title" href="https://www.amazon.com/s?k=Neuromancer+William+Gibson&tag=jtcarrascoser-20">Neuromancer</a>
     <span class="book-card__author">William Gibson</span>
@@ -199,7 +199,7 @@ Books I've read, with notes. Organized by year.
 
   <div class="book-card">
     <a class="book-card__cover" href="https://www.amazon.com/s?k=The+Beach+Alex+Garland&tag=jtcarrascoser-20">
-      <img src="https://covers.openlibrary.org/b/id/381727-M.jpg" alt="The Beach cover" loading="lazy">
+      <img src="/assets/books/the-beach.webp" alt="The Beach cover" loading="lazy">
     </a>
     <a class="book-card__title" href="https://www.amazon.com/s?k=The+Beach+Alex+Garland&tag=jtcarrascoser-20">The Beach</a>
     <span class="book-card__author">Alex Garland</span>
