@@ -159,7 +159,7 @@ Books I've read, with notes. Organized by year.
 
   <div class="book-card">
     <a class="book-card__cover" href="https://www.amazon.com/s?k=The+Year+of+Magical+Thinking+Joan+Didion&tag=jtcarrascoser-20">
-      <img src="https://covers.openlibrary.org/b/id/13693-M.jpg" alt="The Year of Magical Thinking cover" loading="lazy">
+      <img src="/assets/books/the-year-of-magical-thinking.webp" alt="The Year of Magical Thinking cover" loading="lazy">
     </a>
     <a class="book-card__title" href="https://www.amazon.com/s?k=The+Year+of+Magical+Thinking+Joan+Didion&tag=jtcarrascoser-20">The Year of Magical Thinking</a>
     <span class="book-card__author">Joan Didion</span>
