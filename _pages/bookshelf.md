@@ -10,12 +10,22 @@ Books I've read, with notes. Organized by year.
 
 <div class="book-year-heading">
   <h2>2026</h2>
-  <span class="book-year-heading__count">19 books read</span>
+  <span class="book-year-heading__count">20 books read</span>
 </div>
 
-**Currently reading:** [Ham on Rye](https://www.amazon.com/s?k=Ham+on+Rye+Charles+Bukowski&tag=jtcarrascoser-20) by Charles Bukowski *(Fiction)* &nbsp;·&nbsp; [Overclocked](https://www.amazon.com/s?k=Overclocked+Cory+Doctorow&tag=jtcarrascoser-20) by Cory Doctorow *(Sci-fi short stories)*
+**Currently reading:** [Ham on Rye](https://www.amazon.com/s?k=Ham+on+Rye+Charles+Bukowski&tag=jtcarrascoser-20) by Charles Bukowski *(Fiction)*
 
 <div class="book-grid">
+
+  <div class="book-card">
+    <a class="book-card__cover" href="https://www.amazon.com/s?k=Overclocked+Cory+Doctorow&tag=jtcarrascoser-20">
+      <img src="/assets/books/overclocked.webp" alt="Overclocked cover" loading="lazy">
+    </a>
+    <a class="book-card__title" href="https://www.amazon.com/s?k=Overclocked+Cory+Doctorow&tag=jtcarrascoser-20">Overclocked</a>
+    <span class="book-card__author">Cory Doctorow</span>
+    <span class="book-card__rating" role="img" aria-label="4 out of 5 stars">★★★★☆</span>
+    <span class="book-card__genre">Sci-Fi</span>
+  </div>
 
   <div class="book-card">
     <a class="book-card__cover" href="https://www.amazon.com/s?k=The+Reverse+Centaur%27s+Guide+to+Life+After+AI+Cory+Doctorow&tag=jtcarrascoser-20">
